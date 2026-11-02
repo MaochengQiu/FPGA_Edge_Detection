@@ -1,0 +1,6 @@
+G1R integration step PASS: run_tests.py
+G1R integration step PASS: verify_g1_core.py
+G1R integration step PASS: verify_g1_disabled.py
+G1R integration step PASS: check_project.py
+G1R integration step PASS: test_project_structure.py
+G1R FINAL INTEGRATION PASS

@@ -1,0 +1,4 @@
+G2 RGB PASS actual PRE2/Sobel/NMS/link circle square rect triangle blank/moving seven pixels, prior-frame result; circle >=12 pooled cells
+D:\FPGAdemo\V11_G2\ti60f225_oob\sim\tb_g2_rgb.sv:28: $finish called at 12185650000 (1ps)
+G1R OVERLAY PASS green supported/live edges; amber dashed short gaps; NONE no false box; circle marker; readable aligned diagnostic labels; blanking
+D:\FPGAdemo\V11_G2\ti60f225_oob\sim\tb_g1r_overlay.sv:47: $finish called at 9849751000 (1ps)

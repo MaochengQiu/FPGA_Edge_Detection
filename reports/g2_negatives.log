@@ -1,0 +1,6 @@
+G1R CASE PASS case=triangle frame=1 shape=0 box=0,0,0,0 reason=8 cells=144 count=0 sides=00000000 radial=00
+G1R CASE PASS case=diamond frame=2 shape=0 box=0,0,0,0 reason=8 cells=108 count=0 sides=00000000 radial=00
+G1R CASE PASS case=arc30 frame=3 shape=0 box=0,0,0,0 reason=8 cells=109 count=0 sides=00000000 radial=00
+G1R CASE PASS case=small_circle frame=4 shape=0 box=0,0,0,0 reason=8 cells=28 count=0 sides=00000000 radial=00
+G1R RASTER PASS width=512 height=384 frames=4 timeout_test=0
+D:\FPGAdemo\V11_G2\ti60f225_oob\sim\tb_g1r_raster.sv:220: $finish called at 9830700000 (1ps)

@@ -1,0 +1,17 @@
+diamond_64 512_diamond_64.hex 127 0 0 0 0 0 0
+diamond_96 512_diamond_96.hex 191 0 0 0 0 0 0
+ambiguous_equal 512_ambiguous_equal.hex 632 0 0 0 0 0 0
+dense_8x8_cells 512_dense_8x8_cells.hex 4096 0 0 0 0 0 0
+dense_8x8_small_hole 512_dense_8x8_small_hole.hex 3840 0 0 0 0 0 0
+arc30_000 512_arc30_000.hex 403 0 0 0 0 0 0
+arc30_030 512_arc30_030.hex 403 0 0 0 0 0 0
+arc30_060 512_arc30_060.hex 404 0 0 0 0 0 0
+arc30_090 512_arc30_090.hex 403 0 0 0 0 0 0
+arc30_120 512_arc30_120.hex 403 0 0 0 0 0 0
+arc30_150 512_arc30_150.hex 404 0 0 0 0 0 0
+arc30_180 512_arc30_180.hex 403 0 0 0 0 0 0
+arc30_210 512_arc30_210.hex 403 0 0 0 0 0 0
+arc30_240 512_arc30_240.hex 404 0 0 0 0 0 0
+arc30_270 512_arc30_270.hex 403 0 0 0 0 0 0
+arc30_300 512_arc30_300.hex 403 0 0 0 0 0 0
+arc30_330 512_arc30_330.hex 404 0 0 0 0 0 0

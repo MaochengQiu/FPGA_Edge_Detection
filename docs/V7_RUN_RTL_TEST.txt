@@ -1,0 +1,8 @@
+V7 standalone Verilog RTL smoke test (on a PC with Icarus Verilog installed):
+
+cd ti60f225_oob
+iverilog -g2012 -s tb_final_hud -o hud_test.vvp rtl/edge/compose/edge_final_hud.sv sim/tb_final_hud.sv
+vvp hud_test.vvp
+
+Expected output: PASS final HDMI HUD text=... cyan=... passthrough=...
+For Efinity: open ti60f225_oob.xml and rerun synthesis, place/route and bitstream.

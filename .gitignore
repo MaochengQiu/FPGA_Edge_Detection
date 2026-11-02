@@ -1,0 +1,17 @@
+/work/
+/work_syn/
+/work_pnr/
+/work_dbg/
+/outflow/
+/ooc/
+/interfaces_direct.*
+/sim/build*/
+**/__pycache__/
+*.pyc
+*.vcd
+*.fst
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# programming/ and reports/ intentionally tracked

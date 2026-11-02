@@ -1,0 +1,59 @@
+
+Elitestek FPGA Placement and Routing.
+Version: 2026.1.132 
+Date: Mon Nov  2 16:59:12 2026
+
+Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: ti60f225_oob
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|    jtag_inst1_DRCK     |    Input     |
+|     jtag_inst1_TMS     |    Input     |
+|   jtag_inst1_RUNTEST   |    Input     |
+| mipi_dp_data0_LP_P_IN  |    Input     |
+| mipi_dp_data0_LP_N_IN  |    Input     |
+|      ddr_addr[15]      |    Output    |
+|      ddr_addr[14]      |    Output    |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+
+---------- Module Resource Usage Distribution Estimates (begin) ----------
+
+'Module Resource Usage Distribution Estimates' table printed in: outflow\ti60f225_oob.hier_util.rpt
+
+----------- Module Resource Usage Distribution Estimates (end) ----------
+
+Elapsed time for packing: 0 hours 0 minutes 3 seconds
+---------- Resource Summary (begin) ----------
+Inputs: 116 / 1703 (6.81%)
+Outputs: 346 / 2267 (15.26%)
+Global Clocks (GBUF): 18 / 32 (56.25%)
+Regional Clocks (RBUF): 1 / 32 (3.12%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 1 / 8 (12.50%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 48041 / 60800 (79.01%)
+	XLRs needed for LUT4: 22093 / 60800 (36.34%)
+	XLRs needed for LUT4 + FF: 5405 / 60800 (8.89%)
+	XLRs needed for COMB4: 0 / 60800 (0.00%)
+	XLRs needed for COMB4 + FF: 0 / 60800 (0.00%)
+	XLRs needed for Adder: 1982 / 60800 (3.26%)
+	XLRs needed for Adder + FF: 1473 / 60800 (2.42%)
+	XLRs needed for SRL8: 992 / 14720 (6.74%)
+	XLRs needed for SRL8 + FF: 0 / 14720 (0.00%)
+	XLRs needed for FF: 16096 / 60800 (26.47%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 211 / 256 (82.42%)
+DSP Blocks: 23 / 160 (14.38%)
+---------- Resource Summary (end) ----------
+
+Elapsed time for placement: 0 hours 1 minutes 16 seconds

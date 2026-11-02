@@ -1,0 +1,4 @@
+triangle triangle.hex 456 0 0 0 0 0 0
+diamond diamond.hex 288 0 0 0 0 0 0
+arc30 arc30.hex 437 0 0 0 0 0 0
+small_circle small_circle.hex 112 0 0 0 0 0 0

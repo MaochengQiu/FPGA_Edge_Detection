@@ -1,0 +1,667 @@
+{
+  "revision": "V10-C2",
+  "collected_at": "2026-10-31T12:50:52.514834+08:00",
+  "tool": "Efinity 2026.1.132 / Ti60F225 / I3 / seed 1",
+  "scope": {
+    "status": "PASS",
+    "basis": "delivered V10-C1 SHA256 manifest",
+    "in_place_project": true,
+    "changed_color_sources": {
+      "rtl/ti60f225_oob_top.v": {
+        "before": "548bbb49ff429c3bd17585c8856c21eeb0d9687001d3ce0fc48488d092a433e0",
+        "after": "7cd5d9cfa3b1846f584badb69e86f214f75392a6cd3b57adc2cf1333bb397cf1"
+      },
+      "rtl/debayer/debayer_top_2to1.v": {
+        "before": "f6240a41141046ce9888cff98a5e59fb18ce81b7e7de46dc2db70c8f144b6dd9",
+        "after": "46ecf8010dc4a32f0a2b91417de6f1b3b89dba5d97953d5e83d05c5494451a1d"
+      },
+      "rtl/debayer/raw_to_rgb.v": {
+        "before": "248f44a90a10be4e0c90e301f8bdbfcf8a22efca05feb451f487022a71bf4c9a",
+        "after": "6534c1b99bb9965d870640236e29cbdb49ada3cf383a731315e97434e423d570"
+      },
+      "rtl/edge/compose/edge_final_hud.sv": {
+        "before": "e2e7123d367b4b4542b46f80f45d98c7c3ea79b96883d7c533318aed19b284a3",
+        "after": "28b462ac7b773ed509c0579902da565eef7b566cf867adaab733e891c4648085"
+      },
+      "rtl/edge/control/img_control.sv": {
+        "before": "0d76633f34c6f674ecdb697dd02729200e141b194d2ed7f671f02b8239d10d89",
+        "after": "f198e4c492fc119ac2c42253a11272843747e9aeef30bfe73972d0e70e0c2de5"
+      }
+    },
+    "unchanged_release_files": [
+      "rtl/user_dual_port_ram.v",
+      "rtl/dual_clock_fifo.v",
+      "rtl/true_dual_port_ram.v",
+      "rtl/reset.v",
+      "rtl/simple_dual_port_ram.v",
+      "rtl/ddr3_controller/ddr3_top.v",
+      "rtl/ddr3_controller/axi4_bus_ctl/axi4_bus_ctl.v",
+      "rtl/ddr3_controller/local_bus_ctl/local_bus_ctl.v",
+      "rtl/ddr3_controller/memory_bus_ctl/memory_bus_ctl.v",
+      "rtl/ddr3_controller/phy_ctl/ddr_phy_wrlvl.v",
+      "rtl/ddr3_controller/phy_ctl/ddr_phy_rdlvl_dqs.v",
+      "rtl/ddr3_controller/phy_ctl/ddr_phy_wrcal.v",
+      "rtl/ddr3_controller/phy_ctl/ddr_calibration_ini.v",
+      "rtl/ddr3_controller/phy_ctl/ddr_phy_if.v",
+      "rtl/ddr3_controller/phy_ctl/phy_ctl.v",
+      "rtl/ddr3_controller/phy_ctl/ddr_mpr_rdlvl.v",
+      "rtl/ddr3_controller/ddr3_parameter.vh",
+      "rtl/ddr3_controller/lb2_axi_clk.v",
+      "rtl/ddr3_controller/common/efx_fifo_v2.3/efx_fifo_wrapper.v",
+      "rtl/debayer/line_buffer.v",
+      "rtl/mipi_config/panel_config.v",
+      "rtl/cam_i2c_ctrl/i2c_master/i2c_master_byte_ctrl.v",
+      "rtl/cam_i2c_ctrl/i2c_master/i2c_master_top.v",
+      "rtl/cam_i2c_ctrl/i2c_master/i2c_master_bit_ctrl.v",
+      "rtl/cam_i2c_ctrl/i2c_master/oc_i2c_master.v",
+      "rtl/cam_i2c_ctrl/i2c/i2c_16addr_8data.v",
+      "rtl/cam_i2c_ctrl/i2c/i2c_master_reg_rom.v",
+      "rtl/cam_i2c_ctrl/i2c/i2c_master_reg_set.v",
+      "rtl/cam_i2c_ctrl/i2c/i2c_master_ctrl_top.v",
+      "rtl/dvi_tx/ecc_calc_v1.v",
+      "rtl/dvi_tx/audio_clock_regeneration_packet.sv",
+      "rtl/dvi_tx/audio_packet.sv",
+      "rtl/dvi_tx/auxiliary_video_information_info_frame.sv",
+      "rtl/dvi_tx/audio_infoframe_packet.sv",
+      "rtl/dvi_tx/efx_fifo.v",
+      "rtl/dvi_tx/Sc_Fifo_Slr8.v",
+      "rtl/dvi_tx/packet_assembler.sv",
+      "rtl/dvi_tx/encode.v_encrypted.v",
+      "rtl/dvi_tx/tx_aux.v_encrypted.v",
+      "rtl/dvi_tx/dvi_encoder.v_encrypted.v",
+      "rtl/gamma_conrrection/gamma_correction.v",
+      "debug_top.v",
+      "rtl/debayer/rgb_gain_v1.v",
+      "rtl/csi_rx_controller.sv",
+      "rtl/frame_buffer_V4/DC_FIFO.v",
+      "rtl/user_cvo_axi_v2/cvo_axi_v2.v",
+      "rtl/edge/compose/img_composer.sv",
+      "rtl/edge/compose/edge_video_health.sv",
+      "rtl/edge/compose/edge_color_balance.sv",
+      "rtl/edge/compose/edge_rgb_statistics.sv",
+      "rtl/edge/compose/edge_diag_page.sv",
+      "rtl/edge/control/img_key_debounce.sv",
+      "rtl/edge/frame/img_async_fifo.sv",
+      "rtl/edge/frame/img_axi_reader.sv",
+      "rtl/edge/frame/img_axi_writer.sv",
+      "rtl/edge/frame/img_frame_manager.sv",
+      "rtl/edge/frame/img_frame_store.sv",
+      "rtl/edge/gradient/img_gradient_direction.sv",
+      "rtl/edge/gradient/img_sobel_gradient.sv",
+      "rtl/edge/preprocess/img_gaussian3x3.sv",
+      "rtl/edge/preprocess/img_median9.sv",
+      "rtl/edge/preprocess/img_preprocess.sv",
+      "rtl/edge/preprocess/img_rgb2gray.sv",
+      "rtl/edge/top/img_pipeline.sv",
+      "rtl/edge/video/img_coords.sv",
+      "rtl/edge/video/img_video_out.sv",
+      "rtl/edge/video/img_delay.sv",
+      "rtl/edge/video/img_reset_sync.sv",
+      "rtl/edge/video/img_window3x3.sv",
+      "ti60f225_oob.peri.xml",
+      "ti60f225_oob.sdc",
+      "rtl/gamma_conrrection/2P2.mem",
+      "programming/ti60f225_oob_V10_C1.bit",
+      "programming/ti60f225_oob_V10_C1.hex"
+    ],
+    "project_xml_semantics": "IDENTICAL",
+    "all_other_top_wiring": "IDENTICAL",
+    "debayer_line_buffer_counters_sync_latency": "UNCHANGED",
+    "ddr_mipi_hdmi_pll_reset_exposure": "UNCHANGED",
+    "gray_sobel_preprocess_composer": "UNCHANGED",
+    "raw_gain": "UNITY 0x0100",
+    "sensor_phase_status": "UNVERIFIED ON BOARD; runtime four-phase selection, RGGB trial default"
+  },
+  "regression_results": [
+    {
+      "test": "operators",
+      "rtl_windows": 3515,
+      "median_distinct_permutations": 362880,
+      "status": "PASS"
+    },
+    {
+      "test": "pipeline",
+      "width": 8,
+      "height": 6,
+      "h_total": 12,
+      "frames": 144,
+      "samples": 27698,
+      "status": "PASS"
+    },
+    {
+      "test": "pipeline",
+      "width": 3,
+      "height": 3,
+      "h_total": 8,
+      "frames": 144,
+      "samples": 15018,
+      "status": "PASS"
+    },
+    {
+      "test": "pipeline",
+      "width": 2,
+      "height": 2,
+      "h_total": 6,
+      "frames": 144,
+      "samples": 10406,
+      "status": "PASS"
+    },
+    {
+      "test": "pipeline",
+      "width": 1,
+      "height": 1,
+      "h_total": 5,
+      "frames": 144,
+      "samples": 7956,
+      "status": "PASS"
+    },
+    {
+      "test": "pipeline",
+      "width": 17,
+      "height": 9,
+      "h_total": 23,
+      "frames": 144,
+      "samples": 63000,
+      "status": "PASS"
+    },
+    {
+      "test": "pipeline",
+      "width": 1920,
+      "height": 8,
+      "h_total": 2200,
+      "frames": 12,
+      "samples": 479626,
+      "status": "PASS"
+    },
+    {
+      "test": "pipeline",
+      "width": 8,
+      "height": 1080,
+      "h_total": 12,
+      "frames": 12,
+      "samples": 157010,
+      "status": "PASS"
+    },
+    {
+      "test": "composer_full_frame_side_by_side",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_debayer_color",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_bayer_phase",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_color_precision",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_color_pipeline",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_video_health",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_control",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_control_white_balance",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_threshold_limits",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_weak_edges",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_white_balance",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_rgb_statistics",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_diag_overlay",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_final_hud",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_frame_manager",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_async_fifo",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_frame_store",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_axi_writer_throughput",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_axi_reader_pending",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_video_out",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_mode_threshold_sync",
+      "status": "PASS"
+    },
+    {
+      "test": "frame_store_generic_CSI_VS_level",
+      "status": "PASS"
+    }
+  ],
+  "setup": [
+    {
+      "launch": "tx_cal_clk_90edge",
+      "capture": "tx_cal_clk_90edge",
+      "constraint_ns": 2.5,
+      "slack_ns": 0.25
+    },
+    {
+      "launch": "tx_cal_clk_90edge",
+      "capture": "tx_cal_clk",
+      "constraint_ns": 2.5,
+      "slack_ns": 1.133
+    },
+    {
+      "launch": "tx_cal_clk_90edge",
+      "capture": "core_clk",
+      "constraint_ns": 2.5,
+      "slack_ns": 2.069
+    },
+    {
+      "launch": "sdram_clk",
+      "capture": "tx_cal_clk_90edge",
+      "constraint_ns": 2.5,
+      "slack_ns": 0.683
+    },
+    {
+      "launch": "sdram_clk",
+      "capture": "sdram_clk",
+      "constraint_ns": 2.5,
+      "slack_ns": 0.332
+    },
+    {
+      "launch": "rx_cal_clk",
+      "capture": "rx_cal_clk",
+      "constraint_ns": 2.5,
+      "slack_ns": 0.266
+    },
+    {
+      "launch": "tx_cal_clk",
+      "capture": "tx_cal_clk",
+      "constraint_ns": 2.5,
+      "slack_ns": 0.348
+    },
+    {
+      "launch": "vid_clk_dvi2",
+      "capture": "vid_clk_dvi2",
+      "constraint_ns": 13.468,
+      "slack_ns": 7.298
+    },
+    {
+      "launch": "vid_clk_dvi2",
+      "capture": "hdmi_tx_slow_clk",
+      "constraint_ns": 6.734,
+      "slack_ns": 2.137
+    },
+    {
+      "launch": "hdmi_tx_slow_clk",
+      "capture": "vid_clk_dvi2",
+      "constraint_ns": 6.734,
+      "slack_ns": 5.698
+    },
+    {
+      "launch": "hdmi_tx_slow_clk",
+      "capture": "hdmi_tx_slow_clk",
+      "constraint_ns": 6.734,
+      "slack_ns": 0.329
+    },
+    {
+      "launch": "core_clk",
+      "capture": "tx_cal_clk_90edge",
+      "constraint_ns": 2.5,
+      "slack_ns": 0.838
+    },
+    {
+      "launch": "core_clk",
+      "capture": "core_clk",
+      "constraint_ns": 10.0,
+      "slack_ns": 3.643
+    },
+    {
+      "launch": "core_clk",
+      "capture": "i_cam_ck_CLKOUT",
+      "constraint_ns": 10.0,
+      "slack_ns": 9.056
+    },
+    {
+      "launch": "i_mipi_rx_pclk",
+      "capture": "i_mipi_rx_pclk",
+      "constraint_ns": 20.0,
+      "slack_ns": 12.275
+    },
+    {
+      "launch": "i_mipi_rx_pclk",
+      "capture": "i_cam_ck_CLKOUT",
+      "constraint_ns": 10.0,
+      "slack_ns": 7.292
+    },
+    {
+      "launch": "CLK_5M",
+      "capture": "CLK_5M",
+      "constraint_ns": 200.0,
+      "slack_ns": 196.546
+    },
+    {
+      "launch": "i_cam_ck_CLKOUT",
+      "capture": "core_clk",
+      "constraint_ns": 10.0,
+      "slack_ns": 9.546
+    },
+    {
+      "launch": "i_cam_ck_CLKOUT",
+      "capture": "i_mipi_rx_pclk",
+      "constraint_ns": 10.0,
+      "slack_ns": 7.951
+    },
+    {
+      "launch": "i_cam_ck_CLKOUT",
+      "capture": "i_cam_ck_CLKOUT",
+      "constraint_ns": 10.0,
+      "slack_ns": 4.632
+    }
+  ],
+  "hold": [
+    {
+      "launch": "tx_cal_clk_90edge",
+      "capture": "tx_cal_clk_90edge",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.072
+    },
+    {
+      "launch": "tx_cal_clk_90edge",
+      "capture": "tx_cal_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.576
+    },
+    {
+      "launch": "tx_cal_clk_90edge",
+      "capture": "core_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.071
+    },
+    {
+      "launch": "sdram_clk",
+      "capture": "tx_cal_clk_90edge",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.53
+    },
+    {
+      "launch": "sdram_clk",
+      "capture": "sdram_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.096
+    },
+    {
+      "launch": "rx_cal_clk",
+      "capture": "rx_cal_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.033
+    },
+    {
+      "launch": "tx_cal_clk",
+      "capture": "tx_cal_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.099
+    },
+    {
+      "launch": "vid_clk_dvi2",
+      "capture": "vid_clk_dvi2",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.045
+    },
+    {
+      "launch": "vid_clk_dvi2",
+      "capture": "hdmi_tx_slow_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.162
+    },
+    {
+      "launch": "hdmi_tx_slow_clk",
+      "capture": "vid_clk_dvi2",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.323
+    },
+    {
+      "launch": "hdmi_tx_slow_clk",
+      "capture": "hdmi_tx_slow_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.071
+    },
+    {
+      "launch": "core_clk",
+      "capture": "tx_cal_clk_90edge",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.123
+    },
+    {
+      "launch": "core_clk",
+      "capture": "core_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.035
+    },
+    {
+      "launch": "core_clk",
+      "capture": "i_cam_ck_CLKOUT",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.14
+    },
+    {
+      "launch": "i_mipi_rx_pclk",
+      "capture": "i_mipi_rx_pclk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.026
+    },
+    {
+      "launch": "i_mipi_rx_pclk",
+      "capture": "i_cam_ck_CLKOUT",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.14
+    },
+    {
+      "launch": "CLK_5M",
+      "capture": "CLK_5M",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.09
+    },
+    {
+      "launch": "i_cam_ck_CLKOUT",
+      "capture": "core_clk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.094
+    },
+    {
+      "launch": "i_cam_ck_CLKOUT",
+      "capture": "i_mipi_rx_pclk",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.092
+    },
+    {
+      "launch": "i_cam_ck_CLKOUT",
+      "capture": "i_cam_ck_CLKOUT",
+      "constraint_ns": 0.0,
+      "slack_ns": 0.027
+    }
+  ],
+  "min_setup_slack_ns": 0.25,
+  "min_hold_slack_ns": 0.026,
+  "hdmi_setup_slack_ns": 0.329,
+  "debayer_regression": "1101 fields, 66000 interior pixel pairs, four Bayer phases; original GRBG 267 fields also pass",
+  "video_latency": "UNCHANGED, Debayer sync 5 clocks, RGB balance 1 clock",
+  "raw_gain": "UNITY 0x0100",
+  "wb_default_q8": [
+    256,
+    256,
+    256
+  ],
+  "wb_step_q8": 8,
+  "bayer_phases": [
+    "GRBG",
+    "RGGB",
+    "BGGR",
+    "GBRG"
+  ],
+  "default_bayer_phase": 1,
+  "board_validation": "NOT RUN for C2; actual sensor phase and color calibration still require user test",
+  "prior_board_feedback": "C1 stable with normal texture but red/green/blue reproduction incorrect",
+  "existing_warnings": "Inherited unused JTAG/IO constraints remain; all defined final clock setup/hold rows checked",
+  "sha256": {
+    "rtl/ti60f225_oob_top.v": "7cd5d9cfa3b1846f584badb69e86f214f75392a6cd3b57adc2cf1333bb397cf1",
+    "rtl/user_dual_port_ram.v": "f522e90f71c388ba4e2e91fd2506039982bdb60b8bb4710d6d99f8895e9367df",
+    "rtl/dual_clock_fifo.v": "2d6f56dedb23fb47e10d412e97e987f338a30fc39c86b1ada4d356fb2f3893dd",
+    "rtl/true_dual_port_ram.v": "44bfb696e997b4d31bfd3c414623623c9b60964bfe711c611cf80a39222e8e8f",
+    "rtl/reset.v": "126540013b52b8cab339cdaf57b1a6947d3088e97eeb9cb84fb68448f8a2e978",
+    "rtl/simple_dual_port_ram.v": "01b74e74d39c4e4ae380bc7be73329987b17fffaea58bc7c92a9b24e4a110c5d",
+    "rtl/ddr3_controller/ddr3_top.v": "7d8d9cd8a2c69e44ebe9a143f91e6591136aa57f3be22b2cff76904f67d0236a",
+    "rtl/ddr3_controller/axi4_bus_ctl/axi4_bus_ctl.v": "e908d8045fe2332a1740f3aca0226b5fe0bf4d03e25b040fe0f32015d573ad5b",
+    "rtl/ddr3_controller/local_bus_ctl/local_bus_ctl.v": "822d5d0f54c7ba0ea8d66f19f1e97cdea3a159932c64295dfe5ca86f9f814608",
+    "rtl/ddr3_controller/memory_bus_ctl/memory_bus_ctl.v": "a12b886a37278bd44bc207c2debd11156eab1d579e4e3aa7702b229508778882",
+    "rtl/ddr3_controller/phy_ctl/ddr_phy_wrlvl.v": "aec2c9677c03e1110c542ccc643c1ea0458f1f7fbb93dcaad105a7623d4a8591",
+    "rtl/ddr3_controller/phy_ctl/ddr_phy_rdlvl_dqs.v": "bb5e2c9d76c2816164a9bfcbf51a3c2760d897c1340ae493d29867fee601e31f",
+    "rtl/ddr3_controller/phy_ctl/ddr_phy_wrcal.v": "50acbb56f307a0fc9847981216389d41438649993908fdf96c09d823ee7e5ca9",
+    "rtl/ddr3_controller/phy_ctl/ddr_calibration_ini.v": "7a6976bceca5e4598ed9c53c17b522e7c86e07c97f0dbda16f8286d321035522",
+    "rtl/ddr3_controller/phy_ctl/ddr_phy_if.v": "ce8dfd7600e8be615611d353cc6b62e7ccf6411d22ac47c45f9b650ad908584b",
+    "rtl/ddr3_controller/phy_ctl/phy_ctl.v": "2b106e88fb017cbcda86a6ace62f81049d9725a79d4a2ffe9b44672bb4dbc08b",
+    "rtl/ddr3_controller/phy_ctl/ddr_mpr_rdlvl.v": "08446b90c5897750ae6214918981de8262513745da7f7d25850ba6a124b9763e",
+    "rtl/ddr3_controller/ddr3_parameter.vh": "688995ba379237b1daa428ccb119b564c3dcb760227f75f2fe86b8d50a41de80",
+    "rtl/ddr3_controller/lb2_axi_clk.v": "9cef7d5361e79d8c7f1deeab3af981444941ea50447c6c7c8b782e381f41dc2d",
+    "rtl/ddr3_controller/common/efx_fifo_v2.3/efx_fifo_wrapper.v": "040558d9dafd6d7f4c6610b8cd8040cdedc3f95b58a6f31f32dbd7429182eb98",
+    "rtl/debayer/line_buffer.v": "b2772202f1c8a8773f23a4c62a9470d814978b462c8b8ea52b47d11745855a36",
+    "rtl/debayer/debayer_top_2to1.v": "46ecf8010dc4a32f0a2b91417de6f1b3b89dba5d97953d5e83d05c5494451a1d",
+    "rtl/debayer/raw_to_rgb.v": "6534c1b99bb9965d870640236e29cbdb49ada3cf383a731315e97434e423d570",
+    "rtl/mipi_config/panel_config.v": "65106f2a94983eb9403042f1bdc235192e1cc762120babc7d1005aee8d7295fa",
+    "rtl/cam_i2c_ctrl/i2c_master/i2c_master_byte_ctrl.v": "442159006425fa36a946f67afc62391f9f80142aad379a640118a28ce67c9f80",
+    "rtl/cam_i2c_ctrl/i2c_master/i2c_master_top.v": "bf5dd12f2bf30dbc46a1d4cf1d3d1accc05106e14ca1cecf467fd09b46cd45c8",
+    "rtl/cam_i2c_ctrl/i2c_master/i2c_master_bit_ctrl.v": "2df1f5d522725ea216385829a4dec38fdd616e4979aaa0aef7053ac34bf8ac8c",
+    "rtl/cam_i2c_ctrl/i2c_master/oc_i2c_master.v": "dde241966dd153f0f65eb711d6c0b00b9dfc806a733c5f2bf5ff6255bc54ad29",
+    "rtl/cam_i2c_ctrl/i2c/i2c_16addr_8data.v": "12210c511b52dcfdaca2f4cffc0fafb390ac87ed3b3c97dfa2c6008a339c4bb7",
+    "rtl/cam_i2c_ctrl/i2c/i2c_master_reg_rom.v": "245be6408adae617af7438702a3d8c450cc1c5323d675e121dfb740a40b92472",
+    "rtl/cam_i2c_ctrl/i2c/i2c_master_reg_set.v": "8bb2f5e862a606097f312bb90c2a501fc5f29e8a21737ffcd0a4ab62d90101ea",
+    "rtl/cam_i2c_ctrl/i2c/i2c_master_ctrl_top.v": "2534b3d0cd1793b9f91320fc8d5495820252d0221c38ca9dea247e27aea1dc7f",
+    "rtl/dvi_tx/ecc_calc_v1.v": "7bace5b6945f65a0cc9b3593a81eb92130c4f2a1043d1d427ed8c3fc0429c8bd",
+    "rtl/dvi_tx/audio_clock_regeneration_packet.sv": "a00a00548fd646d3cbc4e706410cdc8360f3a48700d3ca5b5c4dce5761c19cc3",
+    "rtl/dvi_tx/audio_packet.sv": "94b5d63d5aecff2979795606aa494bf5bc5201d6e3a4c85f6736d4c85d7c9ca9",
+    "rtl/dvi_tx/auxiliary_video_information_info_frame.sv": "994994405fa384f531e1b2de55f52cd344b3b37b8539a3f7cd30adafcce3e161",
+    "rtl/dvi_tx/audio_infoframe_packet.sv": "d09b51e8b389647499f31b3e06123aa0ea4fbd096e4fe3d102824d5d95a23831",
+    "rtl/dvi_tx/efx_fifo.v": "0f9be5de03c280743837b1b27011b95d9203bc0daa414cec45d676a76dde0581",
+    "rtl/dvi_tx/Sc_Fifo_Slr8.v": "c04df75d9c7f1de8d6abb862fc1bf48c39518591faee7db8a2a22779335ba0ee",
+    "rtl/dvi_tx/packet_assembler.sv": "76287f0e960fa1abdd650ca01d8f66d22dd9afae7248a5f5c86b4862c44a3514",
+    "rtl/dvi_tx/encode.v_encrypted.v": "d1a0a8139a41f13736ba97c65a9f481267c0642acd51f2c66120e0e7f543bd3f",
+    "rtl/dvi_tx/tx_aux.v_encrypted.v": "579c75fab971980053dfc9b4fa07de2431bda6dd0e37515f427a5b2f869d72b5",
+    "rtl/dvi_tx/dvi_encoder.v_encrypted.v": "2a35ca4e11dd93b3c329eef7c9e1d94498864c80041672c01e86ec1450e60381",
+    "rtl/gamma_conrrection/gamma_correction.v": "cd6404d167c15bb7879c3125e92cd8e9d11121870fd1c09ca448be015d5b11e5",
+    "debug_top.v": "81c1402e39e460e4bf81723534176d2d0f2efa35ba57cc9366f75155dda4ed6c",
+    "rtl/debayer/rgb_gain_v1.v": "ebc9c0b0fc589d7620b708fdd7a952e37ccc27b1abfa94e041d0e10323602b09",
+    "rtl/csi_rx_controller.sv": "685d96fd52a604434a1da0bb404131cd4413bf76ed8ee738ac596b32ce373e5a",
+    "rtl/frame_buffer_V4/DC_FIFO.v": "60120a28d8c12599cb7d2cb6d7e3e1f44479f3366156fa4055c3260e46cc05ff",
+    "rtl/user_cvo_axi_v2/cvo_axi_v2.v": "6d9fdeb24f05d75e143572fc3e6456483696d6406bc4abd8c59d8ed9fab07b72",
+    "rtl/edge/compose/img_composer.sv": "44fba7ffebe144b3ce15f508a486a56754e4877066a84671c0799a697a1ec16f",
+    "rtl/edge/compose/edge_video_health.sv": "050210df2a9a20eee634e3db955126ab8b859e41faf880872f91f4b8c79dbbf4",
+    "rtl/edge/compose/edge_color_balance.sv": "b240b222a47eeaf4d7adca12fe0895cd0038de9457ed485c461ccf78a08b046d",
+    "rtl/edge/compose/edge_rgb_statistics.sv": "33732583ef2c490048b448fd71deb9f45538dee8511bd3938c753367cc505f03",
+    "rtl/edge/compose/edge_diag_page.sv": "edbfd40fb8d0f77541d8ddead6af7fa48f1b771a03e81d8b5f19f4874a258a77",
+    "rtl/edge/compose/edge_final_hud.sv": "28b462ac7b773ed509c0579902da565eef7b566cf867adaab733e891c4648085",
+    "rtl/edge/control/img_control.sv": "f198e4c492fc119ac2c42253a11272843747e9aeef30bfe73972d0e70e0c2de5",
+    "rtl/edge/control/img_key_debounce.sv": "3e3f824219789799fc99a954b083477c65deae2861f80697ee80dc7ffd674474",
+    "rtl/edge/frame/img_async_fifo.sv": "f28cbb2a782feef0ec44490d7df1e9f03dcdd6c4ef13f913e39dcabb4891b802",
+    "rtl/edge/frame/img_axi_reader.sv": "48c17cff7787fc6d86c846f89114f21c473165a4bd2111a24a62aff3985f4a3d",
+    "rtl/edge/frame/img_axi_writer.sv": "e4cb197ad6fd0470bd5a9cf823c86df5b2becd55fa960ccc3e749563f9d44f7f",
+    "rtl/edge/frame/img_frame_manager.sv": "15e56a5e679a2b4b73f8107de8b903d44e42f9ffb2533a46c51bcd440b3e70c8",
+    "rtl/edge/frame/img_frame_store.sv": "6fcecd66093c72c20b3b3dad475342a5cf1bbe6492364301177d19dc0ac64eaa",
+    "rtl/edge/gradient/img_gradient_direction.sv": "4eb3ae360e4c2c6002298fd310d5c125762d8349ad67c3dffb0a9391fd3cddbb",
+    "rtl/edge/gradient/img_sobel_gradient.sv": "db1abe25accaca57e19f4f234c289726ec6e87cdbb7cdde46728a4ca8ff6ab6c",
+    "rtl/edge/preprocess/img_gaussian3x3.sv": "8b06a21fe019e21f8f7d3c16b9be53a5e5684e063991dccf80f6b2e8a0a64693",
+    "rtl/edge/preprocess/img_median9.sv": "1232f4eb7c183cb344753708e3318163ecfdee5a8de767c325e34b992ffe1de6",
+    "rtl/edge/preprocess/img_preprocess.sv": "3d6c5aa951d22f0b5da448459b045a5c88f09b12ccb8c31158ecfbd2c2151911",
+    "rtl/edge/preprocess/img_rgb2gray.sv": "d0cd7900fa61858691bb3adfecf25322e569b17ebfe106c77c5f663a18fbd101",
+    "rtl/edge/top/img_pipeline.sv": "c3dd7e236ae17973c69ae13880ea9beac0a42d4fdbf22306aab5f1a78f73cff7",
+    "rtl/edge/video/img_coords.sv": "a2c7ee205fe789826c14041206ab96e3fe3fb6ec1bd04e8dd376cdcbbb367c27",
+    "rtl/edge/video/img_video_out.sv": "b731219ab7b0a9387e057cf11dd83849057b9f688b0cb31655362a6096883de6",
+    "rtl/edge/video/img_delay.sv": "f0848495a7e30d26e43ae1c8359220c48919704a9c057a9bbe29faffbd990272",
+    "rtl/edge/video/img_reset_sync.sv": "03233710663994472dcf1eaf2e30c86577d7d0ca6ba66d89a9abbb4b2756f416",
+    "rtl/edge/video/img_window3x3.sv": "b4d3c63f0019cd6288f885ffba046704ad0333f3468103626f866ef6a8dffd3e",
+    "ti60f225_oob.xml": "52c3803584b40a0398c6a23ebc983d91068b41d814841a3e4cbebb373928d8a3",
+    "ti60f225_oob.peri.xml": "e8c2ac6473d8be9722f4d1744cc98e8a0e61820d439493ca7fce41183042a75d",
+    "ti60f225_oob.sdc": "f084c53bedbd6de4df88fa13daebb32d5054dce84cfd33fce15d456d6c42fc11",
+    "rtl/gamma_conrrection/2P2.mem": "bb22604f3b0c25f48b53c22667a0474368364b9396c926e8ec565d4aa77fd895",
+    "programming/ti60f225_oob_V10_C2.bit": "88f3eeb85095423bed545cfd4b585536f81431664a424dddc628b26796f45093",
+    "programming/ti60f225_oob_V10_C2.hex": "35d72db4e7cf7034380b76425f459f6b8fa08af6112963a6688965eaf9f64ca8",
+    "README.md": "e622ada71551fab89ebf77dfc2a5010b37d7be62482fa6b0a9ce24d28daeff09",
+    "docs/V10_C2_COLOR.md": "f6056805635d168d929dfdb7986fdacbd2c9955c76ab4b2bc790eb817348b901",
+    "reports/V10_C2_VALIDATION.md": "95861d10add43ef3d5ab015eca9ee64482cada2cfb996376f452198e745df480",
+    "sim/tb_async_fifo.sv": "ba1a425664b6f089c97f4a611674c3658dedba7c27962ab814cd8c2bb034ad20",
+    "sim/tb_axi_reader_pending.sv": "712fda5b038b1d81ad9b06c31d82d8643c653c574c51f0c978d9e304e1e4e0c2",
+    "sim/tb_axi_writer_throughput.sv": "6952aac94ce82b7987b1c2400a5d0a187d39f35e102e8192aae2e5a274586ef4",
+    "sim/tb_bayer_phase.sv": "9a98be25a3ffb1a1ddc62768a23c4fee0919a7963995bd5fbdecaa6c0e24de53",
+    "sim/tb_color_pipeline.sv": "b40db489684007faa8b74010a6dfa7fc4f51db27564eb7b12dce3e31464bdcc7",
+    "sim/tb_color_precision.sv": "4ffd0f0d3328c0e73f3bdff0cd95d6c7f82a6e9a4abfafce118ed99dc8e4f063",
+    "sim/tb_composer_mirror.sv": "227d7da9647cbc7d5e97f29e1ee5c5ab2bc04a8f51e92a1ecd3074bd5f1f7ba8",
+    "sim/tb_control.sv": "abe838df393195432eb0c9727029b704027473905e54b041f2544fc512c3ecf9",
+    "sim/tb_control_white_balance.sv": "8c2e5f4a9c974b17bde174e155466bb37f71221d7fa7380f6751b70c994ec556",
+    "sim/tb_debayer_color.sv": "6fa190d89c01cde7087f62aee6da81638bd5e7fb76d4298a06ae74c8630a16b9",
+    "sim/tb_diag_overlay.sv": "718beda04430f0144a8678f99ac99a5110a8a49aca185b9ee45d73ec8593f2d5",
+    "sim/tb_final_hud.sv": "76972fcadf85dfb3946935f82003d0cb5aadf8268a51decf0fd8b698249dd210",
+    "sim/tb_frame_manager.sv": "0656c50d0f71a66932a6fc94eb397494ede9830f18b013218a7f2b410030c96b",
+    "sim/tb_frame_store.sv": "d998e1a414a7bf00678c5c87097c87c3c1f6ca517efa6157d52880ae1f1e621f",
+    "sim/tb_mode_threshold_sync.sv": "19b3e6fdd4698f4cfc20785ac569c1bed9f1494bd2670f51ef82717c74b55ccc",
+    "sim/tb_operators.sv": "84caf5f8521e83f2245ec545d97bc010285186db0608c9ee4fcc4f6fbd5b4deb",
+    "sim/tb_pipeline.sv": "d07a367764d0b5a8ae14bb5b33cde884df823fc528b905fd321e6ff3da6c03c3",
+    "sim/tb_rgb_statistics.sv": "0c23868f150c749bbcdb9d6f05b151bc0e860ffdc022852a45c35d779100fc60",
+    "sim/tb_threshold_limits.sv": "c6615fce16d871e092ff0d57f8ba6c6dd76250e01148c84e117d027f483d7944",
+    "sim/tb_video_health.sv": "37d13f6009321068081b6460e17597577760ca365998a6d5415d83095e31b691",
+    "sim/tb_video_out.sv": "c4f37a8ac65cf347b72bf0b369540c1d8fb57ac8cbc159b00e3a19ae1894e900",
+    "sim/tb_weak_edges.sv": "2006b780f5b560dbe59618ec36f1b890131ce640cefee1daa939aaf15e98ab94",
+    "sim/tb_white_balance.sv": "6923f532f4d5fc111de8d848f2587a9b5abc7a2a94586ca2b8efc0b0bd32dd33",
+    "scripts/check_c2_scope.py": "fab45da9d0912f32500e2e796ce2e8268a4601322fbda361f8019bcffdedb975",
+    "scripts/finalize_c2.py": "237340b9a5c34f7bb8c4341f16cf29cbcb1613b6c356612d1c682426e5ac7503",
+    "scripts/package_c2.py": "2c4a4840c54bec68d08ef2cb83b1321f6381c468efb9adace64be155c4e0c246",
+    "scripts/run_tests.py": "108e16ea2b7428d63864e5842b8233d32b94b750d65eaf27b120013b5e3cda7b",
+    "scripts/check_project.py": "06bce543bb9b7ac26db8a1d407a765f86573edf40ea9e3ee7a2e1c7569d85d40",
+    "scripts/project_structure.py": "6f02cfc2cbb114a6acba85ad4cc0c58d75c64acc559ae0ccb2c09aa5b2a41121",
+    "scripts/test_project_structure.py": "50620d7e18af94a21f63a2eeb9664e3ea415cc3a2c442d65463bdad4321e9cc5",
+    "reference/c2_baseline/README.md": "cceb024fb0d61bfac1d655492550ea6f465e4767ac5d05ab208a594f1097bade",
+    "reference/c2_baseline/ti60f225_oob.xml": "52c3803584b40a0398c6a23ebc983d91068b41d814841a3e4cbebb373928d8a3",
+    "reference/c2_baseline/v10_c1_release_manifest.json": "156772bbd95f2a166038769e55ab7d574b73e22be38ae40d63e4fd88b7c2af6d",
+    "reference/c2_baseline/rtl/ti60f225_oob_top.v": "548bbb49ff429c3bd17585c8856c21eeb0d9687001d3ce0fc48488d092a433e0",
+    "reference/c2_baseline/rtl/debayer/debayer_top_2to1.v": "f6240a41141046ce9888cff98a5e59fb18ce81b7e7de46dc2db70c8f144b6dd9",
+    "reference/c2_baseline/rtl/debayer/raw_to_rgb.v": "248f44a90a10be4e0c90e301f8bdbfcf8a22efca05feb451f487022a71bf4c9a",
+    "reference/c2_baseline/rtl/edge/compose/edge_final_hud.sv": "e2e7123d367b4b4542b46f80f45d98c7c3ea79b96883d7c533318aed19b284a3",
+    "reference/c2_baseline/rtl/edge/control/img_control.sv": "0d76633f34c6f674ecdb697dd02729200e141b194d2ed7f671f02b8239d10d89",
+    "reference/c2_baseline/scripts/run_tests.py": "f541dacba7e9a30b77cc9d653e7cebbf0d88e66a36eecd48ce16d5b23b871a28",
+    "reference/c2_baseline/sim/tb_control_white_balance.sv": "b9c2551bd4ae0c6560906258871debac0efb2ae9b896f54bcc62cba25e2f2367",
+    "reference/c2_baseline/sim/tb_debayer_color.sv": "64ad568c58271e60a56b10a7d7e4ab5b61373ef7028b43c589d96ef1cccdaa7a",
+    "reference/c2_baseline/sim/tb_final_hud.sv": "cfbe21e0f85aae670f4db6df730babeaac81f4bb58e35e017c6aa646135fd81c"
+  }
+}

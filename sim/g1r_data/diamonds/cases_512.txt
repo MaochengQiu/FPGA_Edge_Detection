@@ -1,0 +1,2 @@
+diamond_64 512_diamond_64.hex 127 0 0 0 0 0 0
+diamond_96 512_diamond_96.hex 191 0 0 0 0 0 0

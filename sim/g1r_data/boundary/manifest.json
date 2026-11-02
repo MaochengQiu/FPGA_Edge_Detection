@@ -1,0 +1,266 @@
+{
+  "512": {
+    "width": 512,
+    "height": 384,
+    "S": 8,
+    "CW": 32,
+    "CH": 24,
+    "cases": [
+      {
+        "name": "diamond_64",
+        "file": "512_diamond_64.hex",
+        "pixels": 127,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Small rotated square must not be mistaken for axis-aligned square or circle",
+        "sha256": "1a1e69137b87d7ce2964c922e203765b89e6345b835d5c068add5d8200ddf51f"
+      },
+      {
+        "name": "diamond_96",
+        "file": "512_diamond_96.hex",
+        "pixels": 191,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Small rotated square must not be mistaken for axis-aligned square or circle",
+        "sha256": "d170b88e0c8023be45c98116d3458a9ebca70588cd84309dc6d0a45da06c6c34"
+      },
+      {
+        "name": "ambiguous_equal",
+        "file": "512_ambiguous_equal.hex",
+        "pixels": 632,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Two equal 36-cell contours, separated by six empty cell columns; no unique largest target",
+        "sha256": "1f0121a5f5bd112890f07d3b59e61ce806201eead056ff2e5bf734f58aa8a5cf"
+      },
+      {
+        "name": "dense_8x8_cells",
+        "file": "512_dense_8x8_cells.hex",
+        "pixels": 4096,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Aligned 64x64-pixel solid patch; exactly 8x8 pooled cells, not a square contour",
+        "sha256": "bbbe717949b75d5c81d8094cca1943913b775582152cca08120e4fd08d114edd"
+      },
+      {
+        "name": "dense_8x8_small_hole",
+        "file": "512_dense_8x8_small_hole.hex",
+        "pixels": 3840,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "8x8 dense cells minus central 2x2 cells: 48/60 in outer bands, but 12/16 interior cells occupied",
+        "sha256": "bb442cf4457cf93170315313360caf9b3ee9b93f74ecf3e1a086924deeb3100b"
+      },
+      {
+        "name": "arc30_000",
+        "file": "512_arc30_000.hex",
+        "pixels": 403,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Analytic 30-degree interval [0,30) removed; includes oblique 30..60 gap",
+        "sha256": "93bd400461e266a8e057b75e8accec3d164e0426d298000f563645533d9030c3"
+      },
+      {
+        "name": "arc30_030",
+        "file": "512_arc30_030.hex",
+        "pixels": 403,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Analytic 30-degree interval [30,60) removed; includes oblique 30..60 gap",
+        "sha256": "ce2124159d11515124a84889ca3dd7535b2d3a150609a5b1c3f99d3a901d99d5"
+      },
+      {
+        "name": "arc30_060",
+        "file": "512_arc30_060.hex",
+        "pixels": 404,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Analytic 30-degree interval [60,90) removed; includes oblique 30..60 gap",
+        "sha256": "53358ea5daf7b35632cb8e83208f4599ddb89395650283679ba141b70faeb7a0"
+      },
+      {
+        "name": "arc30_090",
+        "file": "512_arc30_090.hex",
+        "pixels": 403,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Analytic 30-degree interval [90,120) removed; includes oblique 30..60 gap",
+        "sha256": "f55dd3d77d87352f7f8300a24ee0ab8b2a39d33bfd6ad6c2365c0b565d957129"
+      },
+      {
+        "name": "arc30_120",
+        "file": "512_arc30_120.hex",
+        "pixels": 403,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Analytic 30-degree interval [120,150) removed; includes oblique 30..60 gap",
+        "sha256": "c8a84390cfafe9f0aabf521b5550b59c49a377fe6df3b6b58dafa526b5f33510"
+      },
+      {
+        "name": "arc30_150",
+        "file": "512_arc30_150.hex",
+        "pixels": 404,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Analytic 30-degree interval [150,180) removed; includes oblique 30..60 gap",
+        "sha256": "6c88db3edd52f2fada4f4df0d083268a82eef339762b3df55a872d93cfe070b4"
+      },
+      {
+        "name": "arc30_180",
+        "file": "512_arc30_180.hex",
+        "pixels": 403,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Analytic 30-degree interval [180,210) removed; includes oblique 30..60 gap",
+        "sha256": "d269df9b0a1d4b46482d653cc4d878ac104bacb93a6e271bb60bcb4d50566b76"
+      },
+      {
+        "name": "arc30_210",
+        "file": "512_arc30_210.hex",
+        "pixels": 403,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Analytic 30-degree interval [210,240) removed; includes oblique 30..60 gap",
+        "sha256": "072331dcd6d3af03f2d1380cdddcf6cc2d4ab542487a18b0a57af1958863197e"
+      },
+      {
+        "name": "arc30_240",
+        "file": "512_arc30_240.hex",
+        "pixels": 404,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Analytic 30-degree interval [240,270) removed; includes oblique 30..60 gap",
+        "sha256": "81878d100a368174fc21333728bc94609aa2e63aa2af8676e7ffecb51b92e4e3"
+      },
+      {
+        "name": "arc30_270",
+        "file": "512_arc30_270.hex",
+        "pixels": 403,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Analytic 30-degree interval [270,300) removed; includes oblique 30..60 gap",
+        "sha256": "aed58a4da5101ca4bbc2cada9ba49315e7561341510f9d5095675dac9a283c4f"
+      },
+      {
+        "name": "arc30_300",
+        "file": "512_arc30_300.hex",
+        "pixels": 403,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Analytic 30-degree interval [300,330) removed; includes oblique 30..60 gap",
+        "sha256": "6a3ff1d6672c025a1a787424161217f8d74e08138073a1adfc328294e1d82fef"
+      },
+      {
+        "name": "arc30_330",
+        "file": "512_arc30_330.hex",
+        "pixels": 404,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Analytic 30-degree interval [330,360) removed; includes oblique 30..60 gap",
+        "sha256": "0bad1c3018bde20c012dc78702fd934490f89b681958b4f701b810cc35a1fcd9"
+      }
+    ]
+  }
+}

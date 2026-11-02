@@ -1,0 +1,13 @@
+version,threshold,PRE,mode,scene,distance,light,missing_contours,random_speckles,false_links,line_width,blackout_tearing,freeze_modes,PRE_switch,continuous_minutes,evidence,notes,status
+E3B,68,0,M2,cup_near,,,,,,,,,,,,,PENDING
+E3W,68,0,M2,cup_near,,,,,,,,,,,,,PENDING
+E3B,68,0,M2,cup_far,,,,,,,,,,,,,PENDING
+E3W,68,0,M2,cup_far,,,,,,,,,,,,,PENDING
+E3B,68,0,M2,text_PCB,,,,,,,,,,,,,PENDING
+E3W,68,0,M2,text_PCB,,,,,,,,,,,,,PENDING
+E3B,68,0,M2,flat_background,,,,,,,,,,,,,PENDING
+E3W,68,0,M2,flat_background,,,,,,,,,,,,,PENDING
+E3B,68,0_1_2_3,M2,PRE_key_cycle,,,,,,,,,,,,,PENDING
+E3W,68,0_1_2_3,M2,PRE_key_cycle,,,,,,,,,,,,,PENDING
+E3B,68,0,M0_M1_M3_M4_M5,modes_freeze_motion_long_run,,,,,,,,,,,,,PENDING
+E3W,68,0,M0_M1_M3_M4_M5,modes_freeze_motion_long_run,,,,,,,,,,,,,PENDING

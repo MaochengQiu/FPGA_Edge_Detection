@@ -1,0 +1,9 @@
+This project includes source and IP files supplied by the user in
+Ti60f225_sc431hai2hdmi_v7.zip. Their original copyright notices, license terms,
+and encrypted contents are retained. No additional rights to third-party IP
+are granted by this delivery. New source modules and simulation/test scripts
+are located under rtl/, sim/ and scripts/.
+
+Do not replace protected hardware IP with the temporary interface-only models
+created by scripts/check_project.py. Those files are generated only in sim/build
+and are excluded from the distributable archive.

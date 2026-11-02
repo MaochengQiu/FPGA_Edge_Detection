@@ -1,0 +1,54 @@
+9d72a9d458",
+      "rtl/edge/video/img_coords.sv": "a2c7ee205fe789826c14041206ab96e3fe3fb6ec1bd04e8dd376cdcbbb367c27",
+      "rtl/edge/video/img_video_out.sv": "b731219ab7b0a9387e057cf11dd83849057b9f688b0cb31655362a6096883de6",
+      "rtl/edge/video/img_delay.sv": "b855e54669535049b926f88f30877758f1c1ab4af3869b1da66d61254eec0d2c",
+      "rtl/edge/video/img_reset_sync.sv": "03233710663994472dcf1eaf2e30c86577d7d0ca6ba66d89a9abbb4b2756f416",
+      "rtl/edge/video/img_window3x3.sv": "b4d3c63f0019cd6288f885ffba046704ad0333f3468103626f866ef6a8dffd3e",
+      "ti60f225_oob.sdc": "f084c53bedbd6de4df88fa13daebb32d5054dce84cfd33fce15d456d6c42fc11",
+      "ti60f225_oob.peri.xml": "e8c2ac6473d8be9722f4d1744cc98e8a0e61820d439493ca7fce41183042a75d",
+      "rtl/gamma_conrrection/2P2.mem": "bb22604f3b0c25f48b53c22667a0474368364b9396c926e8ec565d4aa77fd895"
+    },
+    "project_semantic_sha256": "bea493d3df45e51e8f8b06b2b1982b6c4a862c3b505be028f6fa9bac5323e76c"
+  },
+  "resources": {
+    "XLRs": {
+      "used": 48041,
+      "total": 60800,
+      "percent": "79.01%"
+    },
+    "Memory Blocks": {
+      "used": 211,
+      "total": 256,
+      "percent": "82.42%"
+    },
+    "DSP Blocks": {
+      "used": 23,
+      "total": 160,
+      "percent": "14.38%"
+    }
+  },
+  "timing": {
+    "min_setup_ns": 0.169,
+    "min_hold_ns": 0.026,
+    "hdmi_setup_ns": 0.181
+  },
+  "artifacts": [
+    {
+      "path": "programming/ti60f225_oob_V11_G2.bit",
+      "sha256": "74da658a38516b32e37df3b4c6742f56927717aa13824a4650949771dee924b2",
+      "bytes": 2592039
+    },
+    {
+      "path": "programming/ti60f225_oob_V11_G2.hex",
+      "sha256": "a3fa04c6a5224a02b39787875ff5cab3e466fe0ede9613c40eb2336d3c609c8a",
+      "bytes": 2592099
+    }
+  ],
+  "changed": [
+    "rtl/edge/geometry/img_geometry.sv",
+    "rtl/edge/geometry/img_geometry_overlay.sv",
+    "rtl/edge/top/img_pipeline.sv"
+  ],
+  "originals_preserved": true
+}
+G2 RELEASE PASS

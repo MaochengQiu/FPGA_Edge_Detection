@@ -1,0 +1,710 @@
+{
+  "512": {
+    "width": 512,
+    "height": 384,
+    "S": 8,
+    "CW": 32,
+    "CH": 24,
+    "cases": [
+      {
+        "name": "square",
+        "file": "512_square.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          176,
+          128,
+          303,
+          255
+        ],
+        "tolerance": 3,
+        "note": "",
+        "sha256": "9072b6cc0564f8fd9d11d5c02c5888287925c053f75dc9be8d839a87e788a771"
+      },
+      {
+        "name": "rectangle",
+        "file": "512_rectangle.hex",
+        "pixels": 588,
+        "shape": 3,
+        "bbox": [
+          160,
+          136,
+          343,
+          247
+        ],
+        "tolerance": 3,
+        "note": "",
+        "sha256": "a7fab5b734ce1d456649a3fe9ecca1345f8e58179acfae18671fbc08d650c26b"
+      },
+      {
+        "name": "circle",
+        "file": "512_circle.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          196,
+          132,
+          319,
+          255
+        ],
+        "tolerance": 3,
+        "note": "",
+        "sha256": "3874961764e0468ad128265718b1406dea29e1ad65ac5590e6547e099a126dcd"
+      },
+      {
+        "name": "isolated_noise",
+        "file": "512_isolated_noise.hex",
+        "pixels": 512,
+        "shape": 2,
+        "bbox": [
+          176,
+          128,
+          303,
+          255
+        ],
+        "tolerance": 3,
+        "note": "Four isolated ROI cells outside target; bbox must stay on square",
+        "sha256": "c9d1ffac88904693d7c324859e5aa54b56ba8317ecd52029bbba0f30d9f02464"
+      },
+      {
+        "name": "gap1",
+        "file": "512_gap1.hex",
+        "pixels": 476,
+        "shape": 2,
+        "bbox": [
+          176,
+          128,
+          303,
+          255
+        ],
+        "tolerance": 3,
+        "note": "One 1-cell empty run at each side; corners retained",
+        "sha256": "0ead87bb23ec949a4092d8fbbfe0011c2705b180996752849d72a8b329cbc74a"
+      },
+      {
+        "name": "gap2",
+        "file": "512_gap2.hex",
+        "pixels": 444,
+        "shape": 2,
+        "bbox": [
+          176,
+          128,
+          303,
+          255
+        ],
+        "tolerance": 3,
+        "note": "One 2-cell empty run at each side; corners retained",
+        "sha256": "4717ba024295ce701db58b0916a9dff57d7bad27d20a240baf11f5bdb5331f69"
+      },
+      {
+        "name": "missing_top",
+        "file": "512_missing_top.hex",
+        "pixels": 380,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "",
+        "sha256": "02fe93b5c27e8c770c3945cbc12b69fec091ea5db0b91a82970e9c329d0fcffe"
+      },
+      {
+        "name": "blank",
+        "file": "512_blank.hex",
+        "pixels": 0,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "triangle",
+        "file": "512_triangle.hex",
+        "pixels": 430,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "",
+        "sha256": "e963a7d64bfd3198914ef5f5175a1b699bbf6491234197aa0777e59bd6a104fb"
+      },
+      {
+        "name": "dense",
+        "file": "512_dense.hex",
+        "pixels": 16384,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "",
+        "sha256": "baf878b067184925ea00ff824df40ee698772dfe6348b7add0fa6f9f5d0788f7"
+      },
+      {
+        "name": "arc",
+        "file": "512_arc.hex",
+        "pixels": 331,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "",
+        "sha256": "1f3833f9e4b5f4217a417623c4857e85610f489b8582edcf595c1b092a4ff58d"
+      },
+      {
+        "name": "diamond",
+        "file": "512_diamond.hex",
+        "pixels": 288,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "",
+        "sha256": "3918d1a613dbe57e34f053e95de1e30859b692bac36f0f9e2abd182285ce8df3"
+      },
+      {
+        "name": "circle_noise",
+        "file": "512_circle_noise.hex",
+        "pixels": 444,
+        "shape": 1,
+        "bbox": [
+          196,
+          132,
+          319,
+          255
+        ],
+        "tolerance": 3,
+        "note": "",
+        "sha256": "6e521e48419ea2f2881f9d3b54ff984b306b859047186ef23a3293a01a436086"
+      },
+      {
+        "name": "small_square",
+        "file": "512_small_square.hex",
+        "pixels": 316,
+        "shape": 2,
+        "bbox": [
+          152,
+          112,
+          231,
+          191
+        ],
+        "tolerance": 3,
+        "note": "",
+        "sha256": "b1728434592840b7f4d2930b32d9684f9ab964e86c76738e1c8ee5aa846495bc"
+      },
+      {
+        "name": "shifted_rectangle",
+        "file": "512_shifted_rectangle.hex",
+        "pixels": 540,
+        "shape": 3,
+        "bbox": [
+          184,
+          168,
+          359,
+          263
+        ],
+        "tolerance": 3,
+        "note": "",
+        "sha256": "e6c1017ed506c11879f9d29cc4d2ef69b381964eacf25364a29c14ecd373bf88"
+      },
+      {
+        "name": "small_circle",
+        "file": "512_small_circle.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          164,
+          124,
+          255,
+          215
+        ],
+        "tolerance": 3,
+        "note": "",
+        "sha256": "035a56b2fca314e2cb384a22b76ae25fe4eafe36956ce4cd215c1114a58dd40d"
+      },
+      {
+        "name": "largest_separated",
+        "file": "512_largest_separated.hex",
+        "pixels": 696,
+        "shape": 2,
+        "bbox": [
+          240,
+          128,
+          351,
+          239
+        ],
+        "tolerance": 3,
+        "note": "Two complete separated contours; largest has 52 vs 28 pooled cells",
+        "sha256": "d8ff06593b8c655f223db8a4f0a2af07df728acbcfcf022c16ffdc0e1f910f49"
+      },
+      {
+        "name": "long_gap",
+        "file": "512_long_gap.hex",
+        "pixels": 468,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five empty cells on top: support below 75 percent and excessive gap",
+        "sha256": "4ec1187be4e58c3bb7850e8d5a6e437991f764900de4fe04d139fcd9ca77de7c"
+      },
+      {
+        "name": "distributed_25pct_gaps",
+        "file": "512_distributed_25pct_gaps.hex",
+        "pixels": 380,
+        "shape": 2,
+        "bbox": [
+          176,
+          128,
+          303,
+          255
+        ],
+        "tolerance": 3,
+        "note": "Exactly 12/16 occupied positions per side, two separated two-cell gaps",
+        "sha256": "15fbb46f7e0585af72d4bb003c3077d93984734be442e1964afaee8e3798159c"
+      },
+      {
+        "name": "phase_x0",
+        "file": "512_phase_x0.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          176,
+          128,
+          303,
+          255
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "9072b6cc0564f8fd9d11d5c02c5888287925c053f75dc9be8d839a87e788a771"
+      },
+      {
+        "name": "phase_x1",
+        "file": "512_phase_x1.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          176,
+          128,
+          307,
+          255
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "75051784e65254ec5298dacc27405bb845d6de2cc4536d1a80a40bdd17f4ee1c"
+      },
+      {
+        "name": "phase_x2",
+        "file": "512_phase_x2.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          176,
+          128,
+          307,
+          255
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "d069c107046ca43b82194174c3bf54bcfdf7dcb416ceb66796c480e88cf66b19"
+      },
+      {
+        "name": "phase_x3",
+        "file": "512_phase_x3.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          176,
+          128,
+          307,
+          255
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "7a52b2385eaeb94f23e2fcf14f4fc22effcd4b7ceb5a740ca8e48f066ad4012e"
+      },
+      {
+        "name": "phase_x4",
+        "file": "512_phase_x4.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          180,
+          128,
+          307,
+          255
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "b72bb01e91f173a15cd1b2445f440a2ee6d34fc2e6da4220d948899e9e2610bc"
+      },
+      {
+        "name": "phase_x5",
+        "file": "512_phase_x5.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          180,
+          128,
+          311,
+          255
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "dfb48ebf8f14ba44ddcd1fa4f9414507a0794a2a7236989f11db826f3d18b3e0"
+      },
+      {
+        "name": "phase_x6",
+        "file": "512_phase_x6.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          180,
+          128,
+          311,
+          255
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "f3b748a35dc4c59f48b183c45325758fb5c3f27aee9c23b94a98bc9009c151f7"
+      },
+      {
+        "name": "phase_x7",
+        "file": "512_phase_x7.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          180,
+          128,
+          311,
+          255
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "6805ccfabbb46e918a954483fc213b7f1cbf063d1b0821015cbf9875f7366835"
+      },
+      {
+        "name": "phase_y0",
+        "file": "512_phase_y0.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          176,
+          128,
+          303,
+          255
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "9072b6cc0564f8fd9d11d5c02c5888287925c053f75dc9be8d839a87e788a771"
+      },
+      {
+        "name": "phase_y1",
+        "file": "512_phase_y1.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          176,
+          128,
+          303,
+          259
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "5d9d8fc6a623d26ce1ec4a8c988b9a044178a7aea5e778b8a819874d49b416d1"
+      },
+      {
+        "name": "phase_y2",
+        "file": "512_phase_y2.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          176,
+          128,
+          303,
+          259
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "12a00400d5a7393c7a9abde8133c0b84c3a37eef55ec2c16685179cbfb0ebd95"
+      },
+      {
+        "name": "phase_y3",
+        "file": "512_phase_y3.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          176,
+          128,
+          303,
+          259
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "14e3a058de3075a41975fdc544b1fc2d2bd96573c4866a69697b5be80867b07e"
+      },
+      {
+        "name": "phase_y4",
+        "file": "512_phase_y4.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          176,
+          132,
+          303,
+          259
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "7fda8672144e19481bbef45c95077af6fd29f9bfb65e48efd5bb72f322bd1d3a"
+      },
+      {
+        "name": "phase_y5",
+        "file": "512_phase_y5.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          176,
+          132,
+          303,
+          263
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "02b3189dd6076067ae05e29138b859e4849c76b3e07f9e27a0ee9fff900bf536"
+      },
+      {
+        "name": "phase_y6",
+        "file": "512_phase_y6.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          176,
+          132,
+          303,
+          263
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "256b963a1611a9e40bbf6b405de86e3f66dc749a1b35ea1b018c92a33c4be210"
+      },
+      {
+        "name": "phase_y7",
+        "file": "512_phase_y7.hex",
+        "pixels": 508,
+        "shape": 2,
+        "bbox": [
+          176,
+          132,
+          303,
+          263
+        ],
+        "tolerance": 3,
+        "note": "Axis phase sweep; x0/y0 duplicate is intentional control",
+        "sha256": "efc476a9cf6fe0a61d9e4db1af303e7f1bb32c0384a6dd4c4688acbc59ae240a"
+      },
+      {
+        "name": "blank_after_motion",
+        "file": "512_blank_after_motion.hex",
+        "pixels": 0,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  "1920": {
+    "width": 1920,
+    "height": 1080,
+    "S": 8,
+    "CW": 120,
+    "CH": 68,
+    "cases": [
+      {
+        "name": "square",
+        "file": "1920_square.hex",
+        "pixels": 1276,
+        "shape": 2,
+        "bbox": [
+          720,
+          398,
+          1039,
+          721
+        ],
+        "tolerance": 3,
+        "note": "",
+        "sha256": "a1e35d7b4c44ed68a90e6e381402e32e13ff281a00d75a54f95710549fe788fb"
+      },
+      {
+        "name": "isolated_noise",
+        "file": "1920_isolated_noise.hex",
+        "pixels": 1280,
+        "shape": 2,
+        "bbox": [
+          720,
+          398,
+          1039,
+          721
+        ],
+        "tolerance": 3,
+        "note": "",
+        "sha256": "d8f713fb644dac5a23b3bfece078f530386448df1e59ce423f560029be9c831c"
+      },
+      {
+        "name": "rectangle",
+        "file": "1920_rectangle.hex",
+        "pixels": 1500,
+        "shape": 3,
+        "bbox": [
+          672,
+          430,
+          1199,
+          657
+        ],
+        "tolerance": 3,
+        "note": "",
+        "sha256": "060f375e5463b2599111e5e8590c87bf452480e3172f2483fc49e267a22b1e69"
+      },
+      {
+        "name": "circle",
+        "file": "1920_circle.hex",
+        "pixels": 1120,
+        "shape": 1,
+        "bbox": [
+          800,
+          378,
+          1123,
+          701
+        ],
+        "tolerance": 3,
+        "note": "",
+        "sha256": "0dc1e617680494add6baf1f78366a7d4dc81e9c89d6ecdc675ea99f8fffdec1a"
+      },
+      {
+        "name": "gap2",
+        "file": "1920_gap2.hex",
+        "pixels": 1212,
+        "shape": 2,
+        "bbox": [
+          720,
+          398,
+          1039,
+          721
+        ],
+        "tolerance": 3,
+        "note": "",
+        "sha256": "3b43818117840ed091f1ad84d9e72acbcd5a0e1415d47a507bdd4da42c105328"
+      },
+      {
+        "name": "missing_top",
+        "file": "1920_missing_top.hex",
+        "pixels": 956,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "",
+        "sha256": "89f8c1f2b0679d9e38d52549eb8b13f14c719ec838a8b2585141abff9214ffe7"
+      },
+      {
+        "name": "arc",
+        "file": "1920_arc.hex",
+        "pixels": 841,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "",
+        "sha256": "bf3d8e0fee9c58615dba585bfb656244a81f2a86852ea11db5e9c27ffeab8a94"
+      },
+      {
+        "name": "blank",
+        "file": "1920_blank.hex",
+        "pixels": 0,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "capacity_dense",
+        "file": "1920_capacity_dense.hex",
+        "pixels": 163840,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "",
+        "sha256": "2338e357b716ca87a02203f44e1c84e712bfa36ef8d6f3aba5b94071d80f378e"
+      },
+      {
+        "name": "after_capacity_square",
+        "file": "1920_after_capacity_square.hex",
+        "pixels": 1276,
+        "shape": 2,
+        "bbox": [
+          720,
+          398,
+          1039,
+          721
+        ],
+        "tolerance": 3,
+        "note": "",
+        "sha256": "a1e35d7b4c44ed68a90e6e381402e32e13ff281a00d75a54f95710549fe788fb"
+      }
+    ]
+  }
+}

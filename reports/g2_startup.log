@@ -1,0 +1,7 @@
+Generated 46 cases in D:\FPGAdemo\V11_G2\ti60f225_oob\sim\g1r_data
+Running startup (diagnostics=1)
+G1R STARTUP UNARMED PASS; next complete frame must recover
+G1R CASE PASS case=square frame=1 shape=2 box=176,128,303,255 reason=0 cells=124 count=124 sides=20202020 radial=40
+G1R RASTER PASS width=512 height=384 frames=1 timeout_test=0
+D:\FPGAdemo\V11_G2\ti60f225_oob\sim\tb_g1r_raster.sv:220: $finish called at 4298380000 (1ps)
+G1R PASS; evidence: D:\FPGAdemo\V11_G2\ti60f225_oob\sim\g1r_data\work\results.json

@@ -1,0 +1,46 @@
+[
+  {
+    "case": "fixed_project",
+    "status": "PASS",
+    "project_identity": "PASS",
+    "demo_child_order": "PASS",
+    "self_contained_paths": "PASS",
+    "device_consistency": "PASS",
+    "Efinity_XSD_and_GUI": "NOT VERIFIED"
+  },
+  {
+    "case": "v1_project_name_mismatch",
+    "status": "PASS",
+    "rejected_reason": "Project name differs from XML filename"
+  },
+  {
+    "case": "peripheral_name_mismatch",
+    "status": "PASS",
+    "rejected_reason": "Peripheral and project names differ"
+  },
+  {
+    "case": "v1_design_file_after_metadata",
+    "status": "PASS",
+    "rejected_reason": "design_file follows trailing design metadata"
+  },
+  {
+    "case": "v1_GPIO_after_bus",
+    "status": "PASS",
+    "rejected_reason": "GPIO child groups differ from demo order"
+  },
+  {
+    "case": "external_source_path",
+    "status": "PASS",
+    "rejected_reason": "Path escapes board project: ../../rtl/top/img_pipeline.sv"
+  },
+  {
+    "case": "missing_source",
+    "status": "PASS",
+    "rejected_reason": "Missing project file: rtl/not_present.v"
+  },
+  {
+    "case": "device_mismatch",
+    "status": "PASS",
+    "rejected_reason": "Peripheral and project devices differ"
+  }
+]

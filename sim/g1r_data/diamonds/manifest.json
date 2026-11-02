@@ -1,0 +1,41 @@
+{
+  "512": {
+    "width": 512,
+    "height": 384,
+    "S": 8,
+    "CW": 32,
+    "CH": 24,
+    "cases": [
+      {
+        "name": "diamond_64",
+        "file": "512_diamond_64.hex",
+        "pixels": 127,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Small rotated square must not be mistaken for axis-aligned square or circle",
+        "sha256": "39f779c799e3d8c479fa0623ea3140a2c45994ab8de9757e5d6558f86205fe62"
+      },
+      {
+        "name": "diamond_96",
+        "file": "512_diamond_96.hex",
+        "pixels": 191,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Small rotated square must not be mistaken for axis-aligned square or circle",
+        "sha256": "300ec3681dacdc3cfa8a33b240232f71e9adcc876bf34d7978167e5c95f606de"
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "name": "512_circle24_phase0",
+      "shape": 1
+    },
+    {
+      "name": "512_circle24_phase1",
+      "shape": 1
+    },
+    {
+      "name": "512_circle24_phase2",
+      "shape": 1
+    },
+    {
+      "name": "512_circle24_phase3",
+      "shape": 1
+    },
+    {
+      "name": "512_circle32_phase0",
+      "shape": 1
+    },
+    {
+      "name": "512_circle32_phase1",
+      "shape": 1
+    },
+    {
+      "name": "512_circle32_phase2",
+      "shape": 1
+    },
+    {
+      "name": "512_circle32_phase3",
+      "shape": 1
+    },
+    {
+      "name": "512_circle44_phase0",
+      "shape": 1
+    },
+    {
+      "name": "512_circle44_phase1",
+      "shape": 1
+    },
+    {
+      "name": "512_circle44_phase2",
+      "shape": 1
+    },
+    {
+      "name": "512_circle44_phase3",
+      "shape": 1
+    },
+    {
+      "name": "512_circle60_phase0",
+      "shape": 1
+    },
+    {
+      "name": "512_circle60_phase1",
+      "shape": 1
+    },
+    {
+      "name": "512_circle60_phase2",
+      "shape": 1
+    },
+    {
+      "name": "512_circle60_phase3",
+      "shape": 1
+    },
+    {
+      "name": "512_ellipse60_28_phase0",
+      "shape": 4
+    },
+    {
+      "name": "512_ellipse60_28_phase1",
+      "shape": 4
+    },
+    {
+      "name": "512_ellipse60_28_phase2",
+      "shape": 4
+    },
+    {
+      "name": "512_ellipse60_28_phase3",
+      "shape": 4
+    },
+    {
+      "name": "512_ellipse60_40_phase0",
+      "shape": 4
+    },
+    {
+      "name": "512_ellipse60_40_phase1",
+      "shape": 4
+    },
+    {
+      "name": "512_ellipse60_40_phase2",
+      "shape": 4
+    },
+    {
+      "name": "512_ellipse60_40_phase3",
+      "shape": 4
+    },
+    {
+      "name": "512_ellipse28_60_phase0",
+      "shape": 4
+    },
+    {
+      "name": "512_ellipse28_60_phase1",
+      "shape": 4
+    },
+    {
+      "name": "512_ellipse28_60_phase2",
+      "shape": 4
+    },
+    {
+      "name": "512_ellipse28_60_phase3",
+      "shape": 4
+    },
+    {
+      "name": "512_double_circle4",
+      "shape": 1
+    },
+    {
+      "name": "512_double_circle8",
+      "shape": 1
+    },
+    {
+      "name": "512_double_circle12",
+      "shape": 1
+    },
+    {
+      "name": "512_square48",
+      "shape": 2
+    },
+    {
+      "name": "512_square80",
+      "shape": 2
+    },
+    {
+      "name": "512_square128",
+      "shape": 2
+    },
+    {
+      "name": "512_double_rect4",
+      "shape": 3
+    },
+    {
+      "name": "512_double_rect12",
+      "shape": 3
+    },
+    {
+      "name": "512_double_rect24",
+      "shape": 3
+    },
+    {
+      "name": "512_larger_bad_with_ellipse",
+      "shape": 4
+    },
+    {
+      "name": "512_ellipse_with_text",
+      "shape": 4
+    },
+    {
+      "name": "512_arc",
+      "shape": 0
+    },
+    {
+      "name": "512_dense",
+      "shape": 0
+    },
+    {
+      "name": "512_blank",
+      "shape": 0
+    }
+  ],
+  "source": {
+    "rtl\\edge\\compose\\edge_color_balance.sv": "b240b222a47eeaf4d7adca12fe0895cd0038de9457ed485c461ccf78a08b046d",
+    "rtl\\edge\\compose\\edge_diag_page.sv": "edbfd40fb8d0f77541d8ddead6af7fa48f1b771a03e81d8b5f19f4874a258a77",
+    "rtl\\edge\\compose\\edge_final_hud.sv": "2d92c52623f6a88d9219778e567341ef7af14ea774de9ea89b45a6334a1f8915",
+    "rtl\\edge\\compose\\edge_rgb_statistics.sv": "33732583ef2c490048b448fd71deb9f45538dee8511bd3938c753367cc505f03",
+    "rtl\\edge\\compose\\edge_video_health.sv": "050210df2a9a20eee634e3db955126ab8b859e41faf880872f91f4b8c79dbbf4",
+    "rtl\\edge\\compose\\img_composer.sv": "1a6f0621ca87330863a5eaca85d6a40b8fa9d54cad4a7a14040b8bdbafd51b03",
+    "rtl\\edge\\control\\img_control.sv": "69c438012e87534f36fe6c5b6ae3b98162521226ee7b8507bcd22a26282809ca",
+    "rtl\\edge\\control\\img_key_debounce.sv": "3e3f824219789799fc99a954b083477c65deae2861f80697ee80dc7ffd674474",
+    "rtl\\edge\\frame\\img_async_fifo.sv": "f28cbb2a782feef0ec44490d7df1e9f03dcdd6c4ef13f913e39dcabb4891b802",
+    "rtl\\edge\\frame\\img_axi_reader.sv": "48c17cff7787fc6d86c846f89114f21c473165a4bd2111a24a62aff3985f4a3d",
+    "rtl\\edge\\frame\\img_axi_writer.sv": "e4cb197ad6fd0470bd5a9cf823c86df5b2becd55fa960ccc3e749563f9d44f7f",
+    "rtl\\edge\\frame\\img_frame_manager.sv": "15e56a5e679a2b4b73f8107de8b903d44e42f9ffb2533a46c51bcd440b3e70c8",
+    "rtl\\edge\\frame\\img_frame_store.sv": "6fcecd66093c72c20b3b3dad475342a5cf1bbe6492364301177d19dc0ac64eaa",
+    "rtl\\edge\\geometry\\img_geometry.sv": "049014b8ff18bb72c31eb4d73804db38e8e05c75858afe4c8d3316bba6d1b65e",
+    "rtl\\edge\\geometry\\img_geometry_overlay.sv": "2ae395335f83ba33b574e4c970e2b043734c5bb8c5aa648dedc91dc58dab97ed",
+    "rtl\\edge\\gradient\\img_edge_link.sv": "ba6a83354d69703e2f2cf1133e123a2c42b07c251d1a7d83cc486d46b926e794",
+    "rtl\\edge\\gradient\\img_gradient_direction.sv": "4eb3ae360e4c2c6002298fd310d5c125762d8349ad67c3dffb0a9391fd3cddbb",
+    "rtl\\edge\\gradient\\img_nms.sv": "0308bfd366afc91b795c2bd2ad0fef846f889271ac881bdeb9c64e058bfdfb37",
+    "rtl\\edge\\gradient\\img_sobel_gradient.sv": "db1abe25accaca57e19f4f234c289726ec6e87cdbb7cdde46728a4ca8ff6ab6c",
+    "rtl\\edge\\preprocess\\img_gaussian3x3.sv": "8b06a21fe019e21f8f7d3c16b9be53a5e5684e063991dccf80f6b2e8a0a64693",
+    "rtl\\edge\\preprocess\\img_gaussian5x5.sv": "51557eb0de82d461cc9e76f0c643e519965ef250df6c480bdbbf565944305fb5",
+    "rtl\\edge\\preprocess\\img_median9.sv": "1232f4eb7c183cb344753708e3318163ecfdee5a8de767c325e34b992ffe1de6",
+    "rtl\\edge\\preprocess\\img_preprocess.sv": "7a8405b191aafb4db53b13cfb858668b8ce13970a91dae9fdc9b0ba871a9f6a8",
+    "rtl\\edge\\preprocess\\img_rgb2gray.sv": "d0cd7900fa61858691bb3adfecf25322e569b17ebfe106c77c5f663a18fbd101",
+    "rtl\\edge\\top\\img_pipeline.sv": "fb6e469972b79b239c340e64f9cfc8bd5fd32b5d347fc2f9ad36649d72a9d458",
+    "rtl\\edge\\video\\edge_hdmi_test_pattern.sv": "1253b4b5fca464942a58672407ea88678683cf212d8dfaa627df2cad976868d1",
+    "rtl\\edge\\video\\img_coords.sv": "a2c7ee205fe789826c14041206ab96e3fe3fb6ec1bd04e8dd376cdcbbb367c27",
+    "rtl\\edge\\video\\img_delay.sv": "b855e54669535049b926f88f30877758f1c1ab4af3869b1da66d61254eec0d2c",
+    "rtl\\edge\\video\\img_reset_sync.sv": "03233710663994472dcf1eaf2e30c86577d7d0ca6ba66d89a9abbb4b2756f416",
+    "rtl\\edge\\video\\img_video_out.sv": "b731219ab7b0a9387e057cf11dd83849057b9f688b0cb31655362a6096883de6",
+    "rtl\\edge\\video\\img_window3x3.sv": "b4d3c63f0019cd6288f885ffba046704ad0333f3468103626f866ef6a8dffd3e",
+    "rtl\\edge\\video\\img_window5x5.sv": "dfb67f194b52b8fbf5b215ea1ae7d68204c2557206fd30745d35753f890fba5a"
+  },
+  "board_tested": false
+}

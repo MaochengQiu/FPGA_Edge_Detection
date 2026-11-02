@@ -1,0 +1,40 @@
+{
+  "basis": "User confirms PH=2; attached C2 hardware photo",
+  "bayer_phase": 2,
+  "bayer_name": "BGGR",
+  "wb_q8_hex": [
+    "240",
+    "180",
+    "240"
+  ],
+  "wb_gain": [
+    2.25,
+    1.5,
+    2.25
+  ],
+  "raw_mean_hex": [
+    "32",
+    "3F",
+    "2D"
+  ],
+  "out_mean_hex": [
+    "5E",
+    "57",
+    "54"
+  ],
+  "clipped_hex": [
+    "00F",
+    "00F",
+    "00F"
+  ],
+  "clipped_each": 15,
+  "samples": 256,
+  "cam": 30,
+  "ddr": 30,
+  "screen_new_frames": 30,
+  "errors": "R0 L0 O0 U0 D0",
+  "scene": "Camera points at a bright ceiling luminaire; not a uniform white/gray card",
+  "conclusion": "PH2 accepted for this existing sensor configuration; user gains stored as a starting preset, not universal white balance",
+  "photo": "aadf9c22f253214ff472ab9a71884787.jpg",
+  "photo_sha256": "2363882363cb1024c53ba630e8d2d034cd74bb9d04ccee4cea5d4ff8662d04bf"
+}

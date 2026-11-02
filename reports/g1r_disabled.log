@@ -1,0 +1,3 @@
+G1 DISABLED PASS W32 H24 HT40 FRAMES8 13754 exact E7 clocks, 6144 active, 1624 edge, all RGB/sync/magnitude/edge/SOF; mid-run reset
+D:\FPGAdemo\V11_G2\ti60f225_oob\sim\tb_g1_disabled.sv:57: $finish called at 137630000 (1ps)
+G1 DISABLED VERIFICATION PASS

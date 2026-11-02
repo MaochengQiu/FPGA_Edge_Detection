@@ -1,0 +1,6 @@
+Generated 46 cases in D:\FPGAdemo\V11_G2\ti60f225_oob\sim\g1r_data
+Running deadline (diagnostics=1)
+G1R CASE PASS case=square frame=1 shape=0 box=0,0,0,0 reason=7 cells=124 count=0 sides=00000000 radial=00
+G1R RASTER PASS width=512 height=384 frames=1 timeout_test=0
+D:\FPGAdemo\V11_G2\ti60f225_oob\sim\tb_g1r_raster.sv:220: $finish called at 2457720000 (1ps)
+G1R PASS; evidence: D:\FPGAdemo\V11_G2\ti60f225_oob\sim\g1r_data\work\results.json

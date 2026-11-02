@@ -1,0 +1,2 @@
+G1 CORE PASS W32 H24 HT40 FRAMES32 54074 exact E7 clocks, 24576 active, 5481 edge, all RGB/sync/magnitude/edge/SOF; mid-run reset
+D:\FPGAdemo\V11_G2\ti60f225_oob\sim\tb_g1_equivalence.sv:65: $finish called at 540830000 (1ps)

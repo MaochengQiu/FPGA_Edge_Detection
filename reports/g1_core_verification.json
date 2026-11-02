@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "test": "all_modes_PRE",
+      "params": {},
+      "status": "PASS"
+    },
+    {
+      "test": "HD_banks_split",
+      "params": {
+        "WIDTH": 1920,
+        "HEIGHT": 24,
+        "HTOTAL": 2200,
+        "FRAMES": 3,
+        "HD": 1
+      },
+      "status": "PASS"
+    },
+    {
+      "test": "tb_e7_controls",
+      "params": {},
+      "status": "PASS"
+    },
+    {
+      "test": "tb_e3_controls",
+      "params": {},
+      "status": "PASS"
+    },
+    {
+      "test": "tb_final_hud",
+      "params": {
+        "PALETTE_PROBE": 1,
+        "DVI_TRANSPORT": 1,
+        "QUALITY_FILTER": 1,
+        "RESOURCE_OPT": 1
+      },
+      "status": "PASS"
+    },
+    {
+      "test": "tb_m2_starvation",
+      "params": {},
+      "status": "PASS"
+    },
+    {
+      "test": "tb_video_out",
+      "params": {},
+      "status": "PASS"
+    }
+  ],
+  "reference": "Frozen complete E7 edge RTL, namespaced only for dual-core simulation",
+  "identical": "Every RGB/DE/HS/VS/debug magnitude/debug edge/input SOF cycle, 8 pages x 4 PRE plus actual 1920-wide bank/split exercise",
+  "startup_gamma": "Verified separately; old undefined first-load RGB is not treated as a defined value"
+}

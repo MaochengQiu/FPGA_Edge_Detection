@@ -1,0 +1,1211 @@
+{
+  "512": {
+    "width": 512,
+    "height": 384,
+    "S": 8,
+    "CW": 32,
+    "CH": 24,
+    "cases": [
+      {
+        "name": "circle_r28_x0",
+        "file": "512_circle_r28_x0.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "4248d120e3690578309e6a7cb854ac0506f08f1ee639fb859340555bc4411150"
+      },
+      {
+        "name": "circle_r28_x1",
+        "file": "512_circle_r28_x1.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "4f5b159b7380e62ee73f5fdcb9aa287f79d3e47061941915b27e44432cf065ac"
+      },
+      {
+        "name": "circle_r28_x2",
+        "file": "512_circle_r28_x2.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "be5a8105cc8abec3c6de37ebc79eb6262e1930dcd49217c89817012ece963936"
+      },
+      {
+        "name": "circle_r28_x3",
+        "file": "512_circle_r28_x3.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "202537723b5dd320ef1b9e5d06c36b927baed71a52f3dac0c9d5eb7a817e5ade"
+      },
+      {
+        "name": "circle_r28_x4",
+        "file": "512_circle_r28_x4.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "c776cd154fc354f04c6b202c050d106fdf8d89ad545254ddb5ed25a6d089ed95"
+      },
+      {
+        "name": "circle_r28_x5",
+        "file": "512_circle_r28_x5.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "e6d6a286e98d4a632fb508421f3c9120fd8919b534565807da04bae0d989b9a5"
+      },
+      {
+        "name": "circle_r28_x6",
+        "file": "512_circle_r28_x6.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "efc722d06953493baebe3e6d3e938215949c3f7bc073fbc1f426c853afe9576d"
+      },
+      {
+        "name": "circle_r28_x7",
+        "file": "512_circle_r28_x7.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "01b299583604340cef7901e839832bdd12d72d6e8358df454b154793a01dcfff"
+      },
+      {
+        "name": "circle_r28_y0",
+        "file": "512_circle_r28_y0.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "4248d120e3690578309e6a7cb854ac0506f08f1ee639fb859340555bc4411150"
+      },
+      {
+        "name": "circle_r28_y1",
+        "file": "512_circle_r28_y1.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "9bea14c888238f41026c847fe4be6cdc04f16941113d2b361770d4b12f6a5c3a"
+      },
+      {
+        "name": "circle_r28_y2",
+        "file": "512_circle_r28_y2.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "551908a7732781158088f9c9cf126cfba566e2a6d5243e4b13540673fcdc7451"
+      },
+      {
+        "name": "circle_r28_y3",
+        "file": "512_circle_r28_y3.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "dfc76b4e89244028046496dde5303b0f864b2496025ed2224c882c558ea72365"
+      },
+      {
+        "name": "circle_r28_y4",
+        "file": "512_circle_r28_y4.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "b728e9d1b2bf63093c46dcab1cd0d8083ff0f689857dda81d36d0d41ef642a8f"
+      },
+      {
+        "name": "circle_r28_y5",
+        "file": "512_circle_r28_y5.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "92184f628bf8ee6c1ad995c77b63f1e73c3ad1b39d09fef678edf096ba50dc6e"
+      },
+      {
+        "name": "circle_r28_y6",
+        "file": "512_circle_r28_y6.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "1fc83f74e74fc25a0d73d17ac7676fc839a5521d07cfaadddc0f7c7e3a76d8f8"
+      },
+      {
+        "name": "circle_r28_y7",
+        "file": "512_circle_r28_y7.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "bc6513bdfd5e61142d2d660e5883ecb7b1c9e42e8d57b47438a251805a660055"
+      },
+      {
+        "name": "circle_r32_x0",
+        "file": "512_circle_r32_x0.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "1a3de563c581ca0cf5cd603ab71803911b585bd28ab942bfabd6232f92a66dc9"
+      },
+      {
+        "name": "circle_r32_x1",
+        "file": "512_circle_r32_x1.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "b216e48dd3e593d4d9ae74a66f4d6d36c86bb9d919d53b0e5a2207977b161a95"
+      },
+      {
+        "name": "circle_r32_x2",
+        "file": "512_circle_r32_x2.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "9f0decbe68ef38cb06f5e9bbd776b9744b6ee440399c9fd4fcd319bbb92d8b4b"
+      },
+      {
+        "name": "circle_r32_x3",
+        "file": "512_circle_r32_x3.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "1426d0df99038c9826d03b2fd0ae5007eb2102d48f3d0ead1b0151671ffd5930"
+      },
+      {
+        "name": "circle_r32_x4",
+        "file": "512_circle_r32_x4.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "7f06d4e46abc2d5e34c9c258302dade72df4de89713569f95e565449c3371b8b"
+      },
+      {
+        "name": "circle_r32_x5",
+        "file": "512_circle_r32_x5.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "d574ac2f964b2df173eb171ec103d103ca75f1c7b078e1f49341038ce099aef9"
+      },
+      {
+        "name": "circle_r32_x6",
+        "file": "512_circle_r32_x6.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "9237cf796bdd1b9986cd406c8d1bb55de83d235d1986c92df157b31835b5b555"
+      },
+      {
+        "name": "circle_r32_x7",
+        "file": "512_circle_r32_x7.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "e3e5817b64bb00e3fb0e6d7732dd4e7ec2b11457f19676ea9004063705d8e723"
+      },
+      {
+        "name": "circle_r32_y0",
+        "file": "512_circle_r32_y0.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "1a3de563c581ca0cf5cd603ab71803911b585bd28ab942bfabd6232f92a66dc9"
+      },
+      {
+        "name": "circle_r32_y1",
+        "file": "512_circle_r32_y1.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "f6ab92b4039e0862c7647d0ded88fa6525af7f10f2bce65e492713130ee6dc00"
+      },
+      {
+        "name": "circle_r32_y2",
+        "file": "512_circle_r32_y2.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "d28b81473b8e7db4ff596003b346041ef8ab52f5ba230ca48856038d37fee503"
+      },
+      {
+        "name": "circle_r32_y3",
+        "file": "512_circle_r32_y3.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "13248f7fb8fabe6ac9be0485856ef13aced4672774008f4ea5f6ab0383645a55"
+      },
+      {
+        "name": "circle_r32_y4",
+        "file": "512_circle_r32_y4.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "08879a7b64ebfd1bb926d7882efc8b76421ed83686f8b8f230a5563a62c59c6a"
+      },
+      {
+        "name": "circle_r32_y5",
+        "file": "512_circle_r32_y5.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "46506516c1e733e9c7f7bf85e2a5353e5cc573022ac402c4f8cf51a7d77e9c32"
+      },
+      {
+        "name": "circle_r32_y6",
+        "file": "512_circle_r32_y6.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "79344e87bfd16edbed942f4acc33864a1f2eb84f6c8a3357cd438d31d9278390"
+      },
+      {
+        "name": "circle_r32_y7",
+        "file": "512_circle_r32_y7.hex",
+        "pixels": 216,
+        "shape": 0,
+        "bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tolerance": 0,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "b51367462dad65ad07dac8f57344581e7a2361eb090499b03a079ce18b77553c"
+      },
+      {
+        "name": "circle_r44_x0",
+        "file": "512_circle_r44_x0.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          303,
+          239
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "e55143566c9a0164001427a9e5729f8e330550a94ed837ee8edf4adee5047d25"
+      },
+      {
+        "name": "circle_r44_x1",
+        "file": "512_circle_r44_x1.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          303,
+          239
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "bb15277185f2afa7cb229eeebb1eab5daccd0f7f26958553e3845509420b0759"
+      },
+      {
+        "name": "circle_r44_x2",
+        "file": "512_circle_r44_x2.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          303,
+          239
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "3c754d68f7d694436265479ab2e95955b4c0caa6b40d7c0dd6d0da3a0ea545ae"
+      },
+      {
+        "name": "circle_r44_x3",
+        "file": "512_circle_r44_x3.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          303,
+          239
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "b81a21e797b810a2dc74270d18e5a77613099aa3efcf3aae0be2a223323e50e1"
+      },
+      {
+        "name": "circle_r44_x4",
+        "file": "512_circle_r44_x4.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          216,
+          144,
+          311,
+          239
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "55da95aebeaf4c834d0b1b4090f041251f15436f097d36778912bf16c9c282cd"
+      },
+      {
+        "name": "circle_r44_x5",
+        "file": "512_circle_r44_x5.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          216,
+          144,
+          311,
+          239
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "0998aaf6e7738cb5cc75595e6b08098f1892d78b4fb5ce89f48206227f11d019"
+      },
+      {
+        "name": "circle_r44_x6",
+        "file": "512_circle_r44_x6.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          216,
+          144,
+          311,
+          239
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "59920152ef87c025e9aee426f6b272fe6b98341bce5a86045a77ff9f3b51f724"
+      },
+      {
+        "name": "circle_r44_x7",
+        "file": "512_circle_r44_x7.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          216,
+          144,
+          311,
+          239
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "cbaefd7ea2e780f25dc9619b4d3c90bc299665bf91ac57918189891e7124ccf4"
+      },
+      {
+        "name": "circle_r44_y0",
+        "file": "512_circle_r44_y0.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          303,
+          239
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "e55143566c9a0164001427a9e5729f8e330550a94ed837ee8edf4adee5047d25"
+      },
+      {
+        "name": "circle_r44_y1",
+        "file": "512_circle_r44_y1.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          303,
+          239
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "6b6b1521d47129ad6fef73990229cb7f5320971cc1a19c9d27d06cfe13a4764b"
+      },
+      {
+        "name": "circle_r44_y2",
+        "file": "512_circle_r44_y2.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          303,
+          239
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "38f02131384556f58b0cdbe27a0dd83d9c69009b8ddcd1f4f6113e805d2639ac"
+      },
+      {
+        "name": "circle_r44_y3",
+        "file": "512_circle_r44_y3.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          303,
+          239
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "5a05764768580ae13d6454943e103fb6d1a0bac887f1a2b4baba61303c1ab6f0"
+      },
+      {
+        "name": "circle_r44_y4",
+        "file": "512_circle_r44_y4.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          208,
+          152,
+          303,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "fa3f06ce1c155b9c227cd6bc3997fba54c590bea8ff0c38ec38cdab91e3d92fa"
+      },
+      {
+        "name": "circle_r44_y5",
+        "file": "512_circle_r44_y5.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          208,
+          152,
+          303,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "b096f544c25d38eaaf7e5d5c03d0cb71788fb85286f48d626cda4d14fdb26482"
+      },
+      {
+        "name": "circle_r44_y6",
+        "file": "512_circle_r44_y6.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          208,
+          152,
+          303,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "17375dc92a04e2738252c5a731b0c35d33733f49e5ff3266187e6f5dcccdb6c9"
+      },
+      {
+        "name": "circle_r44_y7",
+        "file": "512_circle_r44_y7.hex",
+        "pixels": 296,
+        "shape": 1,
+        "bbox": [
+          208,
+          152,
+          303,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "5dc4b1d68ff160b83078f323fd074a655483d4b32b283aed8e3121e02c96b763"
+      },
+      {
+        "name": "circle_r48_x0",
+        "file": "512_circle_r48_x0.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "ce599174114a71990d7fc76801e9db75f6be5fdb6f8233b9da8cca3f9dae186c"
+      },
+      {
+        "name": "circle_r48_x1",
+        "file": "512_circle_r48_x1.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "183f383c81bcc28396df0ff327518ea15866791d607c8e7f4145319b8c668314"
+      },
+      {
+        "name": "circle_r48_x2",
+        "file": "512_circle_r48_x2.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "3114577f2318d3f194b9b5f151b6a03498b5cd8e230a5838dcf1141b4e69992b"
+      },
+      {
+        "name": "circle_r48_x3",
+        "file": "512_circle_r48_x3.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "b84113266ae4b97d2eaf6659f44837d0818ca0b719af424e48c44d3928008d78"
+      },
+      {
+        "name": "circle_r48_x4",
+        "file": "512_circle_r48_x4.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "c9178ea41819f221415c31e1551572360ed5da3bf3a516d93a724fddec581694"
+      },
+      {
+        "name": "circle_r48_x5",
+        "file": "512_circle_r48_x5.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "1d21196896896a8be9702728336d0b19b0c1824c6a848dd756ce61c1ec391d68"
+      },
+      {
+        "name": "circle_r48_x6",
+        "file": "512_circle_r48_x6.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "9d7a8edded2b2d5735e984f725c07294247b55c272cd74dd801c7cd0c8881b38"
+      },
+      {
+        "name": "circle_r48_x7",
+        "file": "512_circle_r48_x7.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "a4e427e5bc67ba651fce7189a040e9e745a4bac27ff6876e42610cc70f2df446"
+      },
+      {
+        "name": "circle_r48_y0",
+        "file": "512_circle_r48_y0.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "ce599174114a71990d7fc76801e9db75f6be5fdb6f8233b9da8cca3f9dae186c"
+      },
+      {
+        "name": "circle_r48_y1",
+        "file": "512_circle_r48_y1.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "7678ad8e55ba70248d818ef0c1fc51166dc4ecad139c35dc7eeb5bbfe59ad22e"
+      },
+      {
+        "name": "circle_r48_y2",
+        "file": "512_circle_r48_y2.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "dab148cb5121ce28aec93989e6895048faa7ac573539c3fab0dd50644f0b971d"
+      },
+      {
+        "name": "circle_r48_y3",
+        "file": "512_circle_r48_y3.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "0afaf4677de4f899a9252aeba8ee6c4e78485e0303784026562e39550b5b8d8b"
+      },
+      {
+        "name": "circle_r48_y4",
+        "file": "512_circle_r48_y4.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "8419aaf2c957717438441f442a9e3c904971bcc57349cd49760fe8fc06c60a1e"
+      },
+      {
+        "name": "circle_r48_y5",
+        "file": "512_circle_r48_y5.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "aa25683d39c7f8c7464bf55d022908ebb101162fc5a49c727823477c1c7bdc43"
+      },
+      {
+        "name": "circle_r48_y6",
+        "file": "512_circle_r48_y6.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "61064a8f1ccec721b767446672c49d5ff146e13681584d85a2a53d564c4e132e"
+      },
+      {
+        "name": "circle_r48_y7",
+        "file": "512_circle_r48_y7.hex",
+        "pixels": 360,
+        "shape": 1,
+        "bbox": [
+          208,
+          144,
+          311,
+          247
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "93644cfcd1c89bd13eafc4bb5f2e8cdb8a97f2758d0efd84932dd2c518ea8c51"
+      },
+      {
+        "name": "circle_r60_x0",
+        "file": "512_circle_r60_x0.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          192,
+          128,
+          319,
+          255
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "3874961764e0468ad128265718b1406dea29e1ad65ac5590e6547e099a126dcd"
+      },
+      {
+        "name": "circle_r60_x1",
+        "file": "512_circle_r60_x1.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          192,
+          128,
+          319,
+          255
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "1e9d01b9bec46bc8782fa57eda02f87be6c949c12c9d76da3469d5392e3137ec"
+      },
+      {
+        "name": "circle_r60_x2",
+        "file": "512_circle_r60_x2.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          192,
+          128,
+          319,
+          255
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "12e1f3aa2c8ddaa0698418a2cf97d58802ff0ca782e403fe3b613569a807bfd1"
+      },
+      {
+        "name": "circle_r60_x3",
+        "file": "512_circle_r60_x3.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          192,
+          128,
+          319,
+          255
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "5e7e9d29d31028d50f26d8b783ecc00913535469d08c00f1d86ba1dfeb2bf73f"
+      },
+      {
+        "name": "circle_r60_x4",
+        "file": "512_circle_r60_x4.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          200,
+          128,
+          327,
+          255
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "9a82cc37bc95019b3a1c8f7f3704577303c2fc4e097bfdd0be91451f0130acbd"
+      },
+      {
+        "name": "circle_r60_x5",
+        "file": "512_circle_r60_x5.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          200,
+          128,
+          327,
+          255
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "0deecdd37fc770877d9eeaa3a2c47992e66bf8ec72b4d5aaca14375040cb3e7c"
+      },
+      {
+        "name": "circle_r60_x6",
+        "file": "512_circle_r60_x6.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          200,
+          128,
+          327,
+          255
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "cef57011a75663b2cda029c1cb1c3413f41053db6234da8976769559617a039a"
+      },
+      {
+        "name": "circle_r60_x7",
+        "file": "512_circle_r60_x7.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          200,
+          128,
+          327,
+          255
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "a29b09be1a2741e19d7aa1390cddbc7f196c723ff3f4019ffa9cfe063e15ed61"
+      },
+      {
+        "name": "circle_r60_y0",
+        "file": "512_circle_r60_y0.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          192,
+          128,
+          319,
+          255
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "3874961764e0468ad128265718b1406dea29e1ad65ac5590e6547e099a126dcd"
+      },
+      {
+        "name": "circle_r60_y1",
+        "file": "512_circle_r60_y1.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          192,
+          128,
+          319,
+          255
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "d8228d6333f47fa7ca5098ccf1f310472e9bbd2dc1e21860a1050afc1369e768"
+      },
+      {
+        "name": "circle_r60_y2",
+        "file": "512_circle_r60_y2.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          192,
+          128,
+          319,
+          255
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "6afe1bb77faa1ff9706371777bb291db0112c71b5ae2caf4d4de2c78bc704e01"
+      },
+      {
+        "name": "circle_r60_y3",
+        "file": "512_circle_r60_y3.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          192,
+          128,
+          319,
+          255
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "5193e57136935850d71c856a99f41580a72c5c2deb9281e797ecb0094c817dba"
+      },
+      {
+        "name": "circle_r60_y4",
+        "file": "512_circle_r60_y4.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          192,
+          136,
+          319,
+          263
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "aa3994168891f18ba0116ec17cdf4a6dc6fdd7281da1e27b4a2062d6aefc3efe"
+      },
+      {
+        "name": "circle_r60_y5",
+        "file": "512_circle_r60_y5.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          192,
+          136,
+          319,
+          263
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "015a563525629673c31ddff8505cd812ffa498caa9229accdbe95b3a14fdc191"
+      },
+      {
+        "name": "circle_r60_y6",
+        "file": "512_circle_r60_y6.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          192,
+          136,
+          319,
+          263
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "da0db56c1dd44b8b3d6a60d5c5db2d2dacedc0e188fbfb3fd96cbea3029c5817"
+      },
+      {
+        "name": "circle_r60_y7",
+        "file": "512_circle_r60_y7.hex",
+        "pixels": 440,
+        "shape": 1,
+        "bbox": [
+          192,
+          136,
+          319,
+          263
+        ],
+        "tolerance": 7,
+        "note": "Five sizes, all eight phases per axis; conservative CIRCLE minimum 12x12 cells excludes radii 28/32",
+        "sha256": "1056ccbb154559e1589459a712214da75e717ec037506c7a5c44d77d9a9281d7"
+      }
+    ]
+  }
+}

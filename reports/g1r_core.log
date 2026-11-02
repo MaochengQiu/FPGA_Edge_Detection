@@ -1,0 +1,15 @@
+G1 CORE PASS W32 H24 HT40 FRAMES32 54074 exact E7 clocks, 24576 active, 5481 edge, all RGB/sync/magnitude/edge/SOF; mid-run reset
+D:\FPGAdemo\V11_G2\ti60f225_oob\sim\tb_g1_equivalence.sv:65: $finish called at 540830000 (1ps)
+G1 CORE PASS W1920 H24 HT2200 FRAMES3 290474 exact E7 clocks, 138240 active, 34049 edge, all RGB/sync/magnitude/edge/SOF; mid-run reset
+D:\FPGAdemo\V11_G2\ti60f225_oob\sim\tb_g1_equivalence.sv:65: $finish called at 2904830000 (1ps)
+E7 CONTROL PASS 64 short presses across M0..7, T/PRE/color preserved, invalid page rejected
+D:\FPGAdemo\V11_G2\ti60f225_oob\sim\tb_e7_controls.sv:25: $finish called at 17540000 (1ps)
+E3 CONTROL PASS 8 long presses, PRE0..3 wrap, SOF commit, no hold repeat, color intact
+D:\FPGAdemo\V11_G2\ti60f225_oob\sim\tb_e3_controls.sv:32: $finish called at 11600000 (1ps)
+V10-E4 HUD PASS TEST=0 flags/heartbeat/PRE, decimal4..128, black M2 still has independent HUD
+D:\FPGAdemo\V11_G2\ti60f225_oob\sim\tb_final_hud.sv:136: $finish called at 30158660000 (1ps)
+M2 STARVATION PASS: injected one lost frame, black M2, T68/PRE1 retained, sync continuous, next frame recovered
+D:\FPGAdemo\V11_G2\ti60f225_oob\sim\tb_m2_starvation.sv:61: $finish called at 39020000 (1ps)
+VIDEO OUT PASS continuous HS/VS/DE, starvation, EOL fault, SOF recovery
+D:\FPGAdemo\V11_G2\ti60f225_oob\sim\tb_video_out.sv:50: $finish called at 6880000 (1ps)
+G1 CORE VERIFICATION PASS: 7 configurations

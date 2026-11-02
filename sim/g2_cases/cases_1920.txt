@@ -1,0 +1,4 @@
+1920_circle 1920_circle.hex 936 1 840 418 1083 661 3
+1920_ellipse 1920_ellipse.hex 1152 4 760 438 1163 641 3
+1920_rectangle 1920_rectangle.hex 1476 3 700 418 1199 661 3
+1920_blank 1920_blank.hex 0 0 0 0 0 0 3

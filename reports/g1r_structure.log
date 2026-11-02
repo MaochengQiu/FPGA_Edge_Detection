@@ -1,0 +1,37 @@
+{
+  "project_identity": "PASS",
+  "demo_child_order": "PASS",
+  "self_contained_paths": "PASS",
+  "device_consistency": "PASS",
+  "Efinity_XSD_and_GUI": "NOT VERIFIED",
+  "user_project_settings_preserved": "PASS",
+  "source_files": 83,
+  "custom_modules": 32,
+  "GPIOs": 68,
+  "pin_collisions": "NONE",
+  "include_and_memory_paths": "PASS",
+  "licensed_IP_behavior": "NOT VERIFIED",
+  "public_interface_elaboration": "PASS",
+  "unknown_project_modules_allowed": false,
+  "temporary_device_primitive_models": [
+    "EFX_GBUFCE"
+  ],
+  "protected_source_files": [
+    "rtl/ddr3_controller/ddr3_top.v",
+    "rtl/ddr3_controller/axi4_bus_ctl/axi4_bus_ctl.v",
+    "rtl/ddr3_controller/local_bus_ctl/local_bus_ctl.v",
+    "rtl/ddr3_controller/memory_bus_ctl/memory_bus_ctl.v",
+    "rtl/ddr3_controller/phy_ctl/ddr_phy_wrlvl.v",
+    "rtl/ddr3_controller/phy_ctl/ddr_phy_rdlvl_dqs.v",
+    "rtl/ddr3_controller/phy_ctl/ddr_phy_wrcal.v",
+    "rtl/ddr3_controller/phy_ctl/ddr_calibration_ini.v",
+    "rtl/ddr3_controller/phy_ctl/ddr_phy_if.v",
+    "rtl/ddr3_controller/phy_ctl/phy_ctl.v",
+    "rtl/ddr3_controller/phy_ctl/ddr_mpr_rdlvl.v",
+    "rtl/ddr3_controller/lb2_axi_clk.v",
+    "rtl/dvi_tx/encode.v_encrypted.v",
+    "rtl/dvi_tx/tx_aux.v_encrypted.v",
+    "rtl/dvi_tx/dvi_encoder.v_encrypted.v",
+    "rtl/csi_rx_controller.sv"
+  ]
+}

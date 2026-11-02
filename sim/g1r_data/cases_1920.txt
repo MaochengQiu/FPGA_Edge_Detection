@@ -1,0 +1,10 @@
+square 1920_square.hex 1276 2 720 398 1039 721 3
+isolated_noise 1920_isolated_noise.hex 1280 2 720 398 1039 721 3
+rectangle 1920_rectangle.hex 1500 3 672 430 1199 657 3
+circle 1920_circle.hex 1120 1 800 378 1123 701 3
+gap2 1920_gap2.hex 1212 2 720 398 1039 721 3
+missing_top 1920_missing_top.hex 956 0 0 0 0 0 0
+arc 1920_arc.hex 841 0 0 0 0 0 0
+blank 1920_blank.hex 0 0 0 0 0 0 0
+capacity_dense 1920_capacity_dense.hex 163840 0 0 0 0 0 0
+after_capacity_square 1920_after_capacity_square.hex 1276 2 720 398 1039 721 3
